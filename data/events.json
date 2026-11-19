@@ -23,7 +23,14 @@
       "organizer": "JCK Production",
       "website": "https://www.geeklife.fr/",
       "source_url": "https://www.youtube.com/watch?v=FKGK0k7LXqk",
-      "verified_at": "2026-11-19"
+      "verified_at": "2026-11-19",
+      "image": {
+        "url": "https://www.geeklife.fr/wp-content/uploads/geeklife-v4/hd/hero-blois-public-q85.webp",
+        "source_url": "https://www.geeklife.fr/",
+        "credit": "Geek Life · photographie d’ambiance du festival",
+        "alt": "Public du festival Geek Life — photographie d’ambiance",
+        "kind": "ambiance"
+      }
     },
     {
       "id": "dream-it-beacon-hills-forever-4-2026",
@@ -212,7 +219,14 @@
       "organizer": "JCK Production",
       "website": "https://www.geeklife.fr/",
       "source_url": "https://www.geeklife.fr/wp-content/uploads/2026/04/PROGRAMME_LORIENT_2026_compressed.pdf",
-      "verified_at": "2026-11-19"
+      "verified_at": "2026-11-19",
+      "image": {
+        "url": "https://www.geeklife.fr/wp-content/uploads/geeklife-v4/hd/hero-blois-public-q85.webp",
+        "source_url": "https://www.geeklife.fr/",
+        "credit": "Geek Life · photographie d’ambiance du festival",
+        "alt": "Public du festival Geek Life — photographie d’ambiance",
+        "kind": "ambiance"
+      }
     },
     {
       "id": "mcm-london-comic-con-printemps-2026",
@@ -439,7 +453,14 @@
       "organizer": "JCK Production",
       "website": "https://www.geeklife.fr/",
       "source_url": "https://www.geeklife.fr/laval/billetterie/",
-      "verified_at": "2026-11-19"
+      "verified_at": "2026-11-19",
+      "image": {
+        "url": "https://www.geeklife.fr/wp-content/uploads/geeklife-v4/hd/hero-blois-public-q85.webp",
+        "source_url": "https://www.geeklife.fr/",
+        "credit": "Geek Life · photographie d’ambiance du festival",
+        "alt": "Public du festival Geek Life — photographie d’ambiance",
+        "kind": "ambiance"
+      }
     },
     {
       "id": "san-diego-comic-con-malaga-2026",
@@ -522,7 +543,14 @@
       "organizer": "JCK Production",
       "website": "https://www.geeklife.fr/",
       "source_url": "https://www.geeklife.fr/blois/",
-      "verified_at": "2026-11-19"
+      "verified_at": "2026-11-19",
+      "image": {
+        "url": "https://www.geeklife.fr/wp-content/uploads/geeklife-v4/hd/hero-blois-public-q85.webp",
+        "source_url": "https://www.geeklife.fr/",
+        "credit": "Geek Life · photographie d’ambiance du festival",
+        "alt": "Public du festival Geek Life — photographie d’ambiance",
+        "kind": "ambiance"
+      }
     },
     {
       "id": "mcm-london-comic-con-automne-2026",
@@ -688,7 +716,14 @@
       "website": "https://www.geeklife.fr/",
       "source_url": "https://www.geeklife.fr/amiens/",
       "verified_at": "2026-11-19",
-      "location_country": "France"
+      "location_country": "France",
+      "image": {
+        "url": "https://www.geeklife.fr/wp-content/uploads/geeklife-v4/hd/hero-blois-public-q85.webp",
+        "source_url": "https://www.geeklife.fr/",
+        "credit": "Geek Life · photographie d’ambiance du festival",
+        "alt": "Public du festival Geek Life — photographie d’ambiance",
+        "kind": "ambiance"
+      }
     },
     {
       "id": "heroes-dutch-comic-con-hiver-2026",
@@ -750,7 +785,54 @@
       "organizer": "",
       "website": "https://viecc.com/",
       "source_url": "https://viecc.com/",
-      "verified_at": "2026-11-19"
+      "verified_at": "2026-11-19",
+      "guests": [
+        {
+          "name": "Katie Leung",
+          "known_for": "Harry Potter / Bridgerton",
+          "days": [],
+          "source_url": "https://viecc.com/gaeste-2026/",
+          "verified_at": "2026-11-19"
+        },
+        {
+          "name": "Vincent D’Onofrio",
+          "known_for": "Daredevil",
+          "days": [],
+          "source_url": "https://viecc.com/gaeste-2026/",
+          "verified_at": "2026-11-19"
+        },
+        {
+          "name": "Osric Chau",
+          "known_for": "Supernatural",
+          "days": [],
+          "source_url": "https://viecc.com/gaeste-2026/",
+          "verified_at": "2026-11-19"
+        },
+        {
+          "name": "Michael Cudlitz",
+          "known_for": "The Walking Dead",
+          "days": [],
+          "source_url": "https://viecc.com/gaeste-2026/",
+          "verified_at": "2026-11-19"
+        },
+        {
+          "name": "Marina Sirtis",
+          "known_for": "Star Trek",
+          "days": [],
+          "source_url": "https://viecc.com/gaeste-2026/",
+          "verified_at": "2026-11-19"
+        },
+        {
+          "name": "Nicole de Boer",
+          "known_for": "Star Trek",
+          "days": [],
+          "source_url": "https://viecc.com/gaeste-2026/",
+          "verified_at": "2026-11-19"
+        }
+      ],
+      "guests_source_url": "https://viecc.com/gaeste-2026/",
+      "guests_verified_at": "2026-11-19",
+      "guests_complete": false
     },
     {
       "id": "japan-touch-2026",
@@ -810,9 +892,80 @@
       "description": "Rencontres autour de Station 19 et Grey’s Anatomy.",
       "price": "Voir le site officiel",
       "organizer": "Dream It Conventions",
-      "website": "https://www.dreamit-conventions.com/en",
+      "website": "https://www.dreamit-conventions.com/en/event-details/first-responders-reunion-9",
       "source_url": "https://www.dreamit-conventions.com/en",
-      "verified_at": "2026-11-19"
+      "verified_at": "2026-11-19",
+      "guests": [
+        {
+          "name": "Danielle Savre",
+          "known_for": "Station 19",
+          "days": [
+            "2026-12-05",
+            "2026-12-06"
+          ],
+          "source_url": "https://www.dreamit-conventions.com/en/event-details/first-responders-reunion-9",
+          "verified_at": "2026-11-19"
+        },
+        {
+          "name": "Stefania Spampinato",
+          "known_for": "Station 19 / Grey’s Anatomy",
+          "days": [
+            "2026-12-05",
+            "2026-12-06"
+          ],
+          "source_url": "https://www.dreamit-conventions.com/en/event-details/first-responders-reunion-9",
+          "verified_at": "2026-11-19"
+        },
+        {
+          "name": "Bridget Regan",
+          "known_for": "The Rookie",
+          "days": [
+            "2026-12-05",
+            "2026-12-06"
+          ],
+          "source_url": "https://www.dreamit-conventions.com/en/event-details/first-responders-reunion-9",
+          "verified_at": "2026-11-19"
+        },
+        {
+          "name": "Oliver Stark",
+          "known_for": "9-1-1",
+          "days": [
+            "2026-12-05"
+          ],
+          "source_url": "https://www.dreamit-conventions.com/en/event-details/first-responders-reunion-9",
+          "verified_at": "2026-11-19"
+        },
+        {
+          "name": "Gavin McHugh",
+          "known_for": "9-1-1",
+          "days": [
+            "2026-12-05",
+            "2026-12-06"
+          ],
+          "source_url": "https://www.dreamit-conventions.com/en/event-details/first-responders-reunion-9",
+          "verified_at": "2026-11-19"
+        },
+        {
+          "name": "Chyler Leigh",
+          "known_for": "Grey’s Anatomy / Supergirl",
+          "days": [
+            "2026-12-05",
+            "2026-12-06"
+          ],
+          "source_url": "https://www.dreamit-conventions.com/en/event-details/first-responders-reunion-9",
+          "verified_at": "2026-11-19"
+        }
+      ],
+      "guests_source_url": "https://www.dreamit-conventions.com/en/event-details/first-responders-reunion-9",
+      "guests_verified_at": "2026-11-19",
+      "guests_complete": false,
+      "ticket_url": "https://www.dreamit-conventions.com/en/event-details/first-responders-reunion-9",
+      "image": {
+        "url": "https://static.wixstatic.com/media/34f4f6_afecf216f7a14d4dbdc81f41a3d9939e~mv2.png/v1/fill/w_2023,h_777,al_c/34f4f6_afecf216f7a14d4dbdc81f41a3d9939e~mv2.png",
+        "source_url": "https://www.dreamit-conventions.com/en/event-details/first-responders-reunion-9",
+        "credit": "Dream It Conventions",
+        "alt": "First Responders Reunion 9 — visuel officiel"
+      }
     },
     {
       "id": "german-film-comic-con-2026",
@@ -873,7 +1026,62 @@
       "organizer": "WE LOVE CONVENTIONS",
       "website": "https://salvatorecon.com/",
       "source_url": "https://www.weloveconventions.com/search",
-      "verified_at": "2026-11-19"
+      "verified_at": "2026-11-19",
+      "guests": [
+        {
+          "name": "Ian Somerhalder",
+          "known_for": "Damon Salvatore · The Vampire Diaries",
+          "days": [
+            "2026-12-05",
+            "2026-12-06"
+          ],
+          "source_url": "https://salvatorecon.com/",
+          "verified_at": "2026-11-19"
+        },
+        {
+          "name": "Paul Wesley",
+          "known_for": "Stefan Salvatore · The Vampire Diaries",
+          "days": [
+            "2026-12-05",
+            "2026-12-06"
+          ],
+          "source_url": "https://salvatorecon.com/",
+          "verified_at": "2026-11-19"
+        },
+        {
+          "name": "Steven R. McQueen",
+          "known_for": "Jeremy Gilbert · The Vampire Diaries",
+          "days": [
+            "2026-12-05",
+            "2026-12-06"
+          ],
+          "source_url": "https://salvatorecon.com/",
+          "verified_at": "2026-11-19"
+        },
+        {
+          "name": "Danielle Rose Russell",
+          "known_for": "Hope Mikaelson · Legacies",
+          "days": [
+            "2026-12-05",
+            "2026-12-06"
+          ],
+          "source_url": "https://salvatorecon.com/",
+          "verified_at": "2026-11-19"
+        },
+        {
+          "name": "Danielle Campbell",
+          "known_for": "Davina Claire · The Originals",
+          "days": [
+            "2026-12-05",
+            "2026-12-06"
+          ],
+          "source_url": "https://salvatorecon.com/",
+          "verified_at": "2026-11-19"
+        }
+      ],
+      "guests_source_url": "https://salvatorecon.com/",
+      "guests_verified_at": "2026-11-19",
+      "guests_complete": false
     },
     {
       "id": "tgf-tarbes-2026",
@@ -955,7 +1163,14 @@
       "website": "https://www.geeklife.fr/",
       "source_url": "https://www.geeklife.fr/lemans/",
       "verified_at": "2026-11-19",
-      "location_country": "France"
+      "location_country": "France",
+      "image": {
+        "url": "https://www.geeklife.fr/wp-content/uploads/geeklife-v4/hd/hero-blois-public-q85.webp",
+        "source_url": "https://www.geeklife.fr/",
+        "credit": "Geek Life · photographie d’ambiance du festival",
+        "alt": "Public du festival Geek Life — photographie d’ambiance",
+        "kind": "ambiance"
+      }
     },
     {
       "id": "jmw-quimper-2027",
@@ -1017,7 +1232,14 @@
       "website": "https://www.geeklife.fr/",
       "source_url": "https://www.geeklife.fr/limoges/",
       "verified_at": "2026-11-19",
-      "location_country": "France"
+      "location_country": "France",
+      "image": {
+        "url": "https://www.geeklife.fr/wp-content/uploads/geeklife-v4/hd/hero-blois-public-q85.webp",
+        "source_url": "https://www.geeklife.fr/",
+        "credit": "Geek Life · photographie d’ambiance du festival",
+        "alt": "Public du festival Geek Life — photographie d’ambiance",
+        "kind": "ambiance"
+      }
     },
     {
       "id": "jmw-saint-etienne-2027",
@@ -1059,7 +1281,14 @@
       "website": "https://www.geeklife.fr/",
       "source_url": "https://www.geeklife.fr/rouen/",
       "verified_at": "2026-11-19",
-      "location_country": "France"
+      "location_country": "France",
+      "image": {
+        "url": "https://www.geeklife.fr/wp-content/uploads/geeklife-v4/hd/hero-blois-public-q85.webp",
+        "source_url": "https://www.geeklife.fr/",
+        "credit": "Geek Life · photographie d’ambiance du festival",
+        "alt": "Public du festival Geek Life — photographie d’ambiance",
+        "kind": "ambiance"
+      }
     },
     {
       "id": "jmw-mulhouse-2027",
@@ -1097,11 +1326,17 @@
       "location_name": "Parc Expo de Rouen",
       "location_address": "",
       "description": "Neuvième édition du salon médiéval et fantastique de Rouen.",
-      "price": "Voir le site officiel",
+      "price": "Plein tarif : 9,50 € sur place / 8,50 € en ligne ; pass 2 jours : 13 € (hors éventuels frais)",
       "organizer": "Fédération Française Médiévale",
       "website": "https://www.federation-francaise-medievale.fr/normannia",
       "source_url": "https://www.federation-francaise-medievale.fr/normannia",
-      "verified_at": "2026-11-19"
+      "verified_at": "2026-11-19",
+      "image": {
+        "url": "https://static.wixstatic.com/media/eb7bfc_23cb6366dfe74b9f83571ad08a8864f4~mv2.png/v1/fill/w_448,h_633,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/%C2%B0%C2%B000AAB.png",
+        "source_url": "https://www.federation-francaise-medievale.fr/normannia",
+        "credit": "Fédération Française Médiévale",
+        "alt": "Affiche Normannia 2027"
+      }
     },
     {
       "id": "german-rookie-con-2027",
@@ -1121,7 +1356,92 @@
       "organizer": "WE LOVE CONVENTIONS",
       "website": "https://germanrookiecon.com/",
       "source_url": "https://www.weloveconventions.com/search",
-      "verified_at": "2026-11-19"
+      "verified_at": "2026-11-19",
+      "guests": [
+        {
+          "name": "Mekia Cox",
+          "known_for": "Nyla Harper · The Rookie",
+          "days": [
+            "2027-02-27",
+            "2027-02-28"
+          ],
+          "source_url": "https://germanrookiecon.com/",
+          "verified_at": "2026-11-19"
+        },
+        {
+          "name": "Lisseth Chavez",
+          "known_for": "Celina Juarez · The Rookie",
+          "days": [
+            "2027-02-27",
+            "2027-02-28"
+          ],
+          "source_url": "https://germanrookiecon.com/",
+          "verified_at": "2026-11-19"
+        },
+        {
+          "name": "Deric Augustine",
+          "known_for": "Miles Penn · The Rookie",
+          "days": [
+            "2027-02-27",
+            "2027-02-28"
+          ],
+          "source_url": "https://germanrookiecon.com/",
+          "verified_at": "2026-11-19"
+        },
+        {
+          "name": "Richard T. Jones",
+          "known_for": "Wade Grey · The Rookie",
+          "days": [
+            "2027-02-27",
+            "2027-02-28"
+          ],
+          "source_url": "https://germanrookiecon.com/",
+          "verified_at": "2026-11-19"
+        },
+        {
+          "name": "Tru Valentino",
+          "known_for": "Aaron Thorsen · The Rookie",
+          "days": [
+            "2027-02-27",
+            "2027-02-28"
+          ],
+          "source_url": "https://germanrookiecon.com/",
+          "verified_at": "2026-11-19"
+        },
+        {
+          "name": "Brent Huff",
+          "known_for": "Quigley Smitty · The Rookie",
+          "days": [
+            "2027-02-27",
+            "2027-02-28"
+          ],
+          "source_url": "https://germanrookiecon.com/",
+          "verified_at": "2026-11-19"
+        },
+        {
+          "name": "Bridget Regan",
+          "known_for": "Monica Stevens · The Rookie",
+          "days": [
+            "2027-02-27",
+            "2027-02-28"
+          ],
+          "source_url": "https://germanrookiecon.com/",
+          "verified_at": "2026-11-19"
+        },
+        {
+          "name": "Flula Borg",
+          "known_for": "Skip Tracer Randy · The Rookie",
+          "days": [
+            "2027-02-27",
+            "2027-02-28"
+          ],
+          "source_url": "https://germanrookiecon.com/",
+          "verified_at": "2026-11-19"
+        }
+      ],
+      "guests_source_url": "https://germanrookiecon.com/",
+      "guests_verified_at": "2026-11-19",
+      "guests_complete": false
     },
     {
       "id": "salvatore-con-2027",
@@ -1141,7 +1461,22 @@
       "organizer": "WE LOVE CONVENTIONS",
       "website": "https://salvatorecon.com/",
       "source_url": "https://www.weloveconventions.com/search",
-      "verified_at": "2026-11-19"
+      "verified_at": "2026-11-19",
+      "guests": [
+        {
+          "name": "Ian Somerhalder",
+          "known_for": "Damon Salvatore · The Vampire Diaries",
+          "days": [
+            "2027-03-06",
+            "2027-03-07"
+          ],
+          "source_url": "https://salvatorecon.com/",
+          "verified_at": "2026-11-19"
+        }
+      ],
+      "guests_source_url": "https://salvatorecon.com/",
+      "guests_verified_at": "2026-11-19",
+      "guests_complete": false
     },
     {
       "id": "yggdrasil-indoor-2027",
@@ -1205,7 +1540,14 @@
       "website": "https://www.geeklife.fr/",
       "source_url": "https://www.geeklife.fr/brest/",
       "verified_at": "2026-11-19",
-      "location_country": "France"
+      "location_country": "France",
+      "image": {
+        "url": "https://www.geeklife.fr/wp-content/uploads/geeklife-v4/hd/hero-blois-public-q85.webp",
+        "source_url": "https://www.geeklife.fr/",
+        "credit": "Geek Life · photographie d’ambiance du festival",
+        "alt": "Public du festival Geek Life — photographie d’ambiance",
+        "kind": "ambiance"
+      }
     },
     {
       "id": "polymanga-2027",
@@ -1579,7 +1921,75 @@
       "organizer": "",
       "website": "https://www.fedcon.de/de/",
       "source_url": "https://www.fedcon.de/de/",
-      "verified_at": "2026-11-19"
+      "verified_at": "2026-11-19",
+      "guests": [
+        {
+          "name": "Michael Dorn",
+          "known_for": "Star Trek",
+          "days": [],
+          "source_url": "https://www.fedcon.de/de/highlights/stargaeste/",
+          "verified_at": "2026-11-19"
+        },
+        {
+          "name": "Robert Picardo",
+          "known_for": "Star Trek",
+          "days": [],
+          "source_url": "https://www.fedcon.de/de/highlights/stargaeste/",
+          "verified_at": "2026-11-19"
+        },
+        {
+          "name": "Brent Spiner",
+          "known_for": "Star Trek",
+          "days": [],
+          "source_url": "https://www.fedcon.de/de/highlights/stargaeste/",
+          "verified_at": "2026-11-19"
+        },
+        {
+          "name": "Terry Farrell",
+          "known_for": "Star Trek",
+          "days": [],
+          "source_url": "https://www.fedcon.de/de/highlights/stargaeste/",
+          "verified_at": "2026-11-19"
+        },
+        {
+          "name": "Kate Mulgrew",
+          "known_for": "Star Trek",
+          "days": [],
+          "source_url": "https://www.fedcon.de/de/highlights/stargaeste/",
+          "verified_at": "2026-11-19"
+        },
+        {
+          "name": "Jonathan Frakes",
+          "known_for": "Star Trek",
+          "days": [],
+          "source_url": "https://www.fedcon.de/de/highlights/stargaeste/",
+          "verified_at": "2026-11-19"
+        },
+        {
+          "name": "Marina Sirtis",
+          "known_for": "Star Trek",
+          "days": [],
+          "source_url": "https://www.fedcon.de/de/highlights/stargaeste/",
+          "verified_at": "2026-11-19"
+        },
+        {
+          "name": "Gates McFadden",
+          "known_for": "Star Trek",
+          "days": [],
+          "source_url": "https://www.fedcon.de/de/highlights/stargaeste/",
+          "verified_at": "2026-11-19"
+        },
+        {
+          "name": "Nicole de Boer",
+          "known_for": "Star Trek",
+          "days": [],
+          "source_url": "https://www.fedcon.de/de/highlights/stargaeste/",
+          "verified_at": "2026-11-19"
+        }
+      ],
+      "guests_source_url": "https://www.fedcon.de/de/highlights/stargaeste/",
+      "guests_verified_at": "2026-11-19",
+      "guests_complete": false
     },
     {
       "id": "comic-con-czech-republic-2027",
@@ -1662,7 +2072,14 @@
       "website": "https://www.geeklife.fr/",
       "source_url": "https://www.geeklife.fr/lorient/",
       "verified_at": "2026-11-19",
-      "location_country": "France"
+      "location_country": "France",
+      "image": {
+        "url": "https://www.geeklife.fr/wp-content/uploads/geeklife-v4/hd/hero-blois-public-q85.webp",
+        "source_url": "https://www.geeklife.fr/",
+        "credit": "Geek Life · photographie d’ambiance du festival",
+        "alt": "Public du festival Geek Life — photographie d’ambiance",
+        "kind": "ambiance"
+      }
     },
     {
       "id": "mcm-london-comic-con-printemps-2027",
@@ -2010,7 +2427,14 @@
       "website": "https://www.geeklife.fr/",
       "source_url": "https://www.geeklife.fr/poitiers/",
       "verified_at": "2026-11-19",
-      "location_country": "France"
+      "location_country": "France",
+      "image": {
+        "url": "https://www.geeklife.fr/wp-content/uploads/geeklife-v4/hd/hero-blois-public-q85.webp",
+        "source_url": "https://www.geeklife.fr/",
+        "credit": "Geek Life · photographie d’ambiance du festival",
+        "alt": "Public du festival Geek Life — photographie d’ambiance",
+        "kind": "ambiance"
+      }
     },
     {
       "id": "geeklife-laval-2027",
@@ -2031,7 +2455,14 @@
       "website": "https://www.geeklife.fr/",
       "source_url": "https://www.geeklife.fr/laval/",
       "verified_at": "2026-11-19",
-      "location_country": "France"
+      "location_country": "France",
+      "image": {
+        "url": "https://www.geeklife.fr/wp-content/uploads/geeklife-v4/hd/hero-blois-public-q85.webp",
+        "source_url": "https://www.geeklife.fr/",
+        "credit": "Geek Life · photographie d’ambiance du festival",
+        "alt": "Public du festival Geek Life — photographie d’ambiance",
+        "kind": "ambiance"
+      }
     },
     {
       "id": "retro-mps-borken-2027",
@@ -2072,7 +2503,14 @@
       "website": "https://www.geeklife.fr/",
       "source_url": "https://www.geeklife.fr/caen/",
       "verified_at": "2026-11-19",
-      "location_country": "France"
+      "location_country": "France",
+      "image": {
+        "url": "https://www.geeklife.fr/wp-content/uploads/geeklife-v4/hd/hero-blois-public-q85.webp",
+        "source_url": "https://www.geeklife.fr/",
+        "credit": "Geek Life · photographie d’ambiance du festival",
+        "alt": "Public du festival Geek Life — photographie d’ambiance",
+        "kind": "ambiance"
+      }
     },
     {
       "id": "forever-mystic-falls-fan-meet-8-2027",

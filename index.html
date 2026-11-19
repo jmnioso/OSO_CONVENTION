@@ -1,111 +1,30 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>OSO Convention — Événements Cosplay, Médiéval, Geek & Rencontre Acteur</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Special+Elite&family=Courier+Prime:wght@400;700&display=swap" rel="stylesheet">
-<meta name="description" content="L’agenda OSO Convention : prochains événements geek, médiévaux, cosplay et rencontres avec des acteurs en Europe, avec dates et liens officiels.">
-<script src="app.js" defer></script>
-<link rel="stylesheet" href="styles.css">
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>OSO Convention — Votre prochaine aventure</title>
+<meta name="description" content="Explorez les conventions geek, médiévales, cosplay et rencontres acteurs en Europe. Invités, favoris, carte et calendrier 2026–2027.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Special+Elite&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css"><script src="app.js" defer></script>
 </head>
 <body>
-
-<nav>
-  <a href="index.html" class="nav-brand">
-    <div class="nav-logo-box">✦</div>
-    OSO Convention
-  </a>
-</nav>
-
-<div class="hero">
-  <div class="hero-eyebrow">Agenda des passionnés · Europe · 2026–2027</div>
-  <h1>OSO <span style="color:var(--red)">Convention</span></h1>
-  <div class="hero-sub">Cosplay &nbsp;·&nbsp; Médiéval &nbsp;·&nbsp; Geek &nbsp;·&nbsp; Rencontre Acteur</div>
-</div>
-
-<div class="stats-bar">
-  <div class="stat"><span class="stat-num" id="stat-total">—</span><div class="stat-label">Événements à venir</div></div>
-  <div class="stat"><span class="stat-num" id="stat-month">—</span><div class="stat-label">Ce mois-ci</div></div>
-  <div class="stat"><span class="stat-num" id="stat-cities">—</span><div class="stat-label">Villes</div></div>
-</div>
-
-<p class="catalog-note" id="catalog-note">Chargement de l’agenda…</p>
-<main>
-<div class="controls">
-  <div class="controls-header">⊞ Prochains événements</div>
-  <div class="search-row">
-    <div class="search-box">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
-      <input type="search" aria-label="Rechercher un événement, une ville ou un pays" id="search-input" placeholder="Rechercher par titre, ville, pays…">
-    </div>
-    <div class="date-from-box">
-      <span class="date-from-label">À partir du</span>
-      <input type="date" id="date-from-filter" aria-label="Événements à partir du">
-      <button class="date-from-clear" id="date-from-clear" aria-label="Effacer la date" style="display:none">✕</button>
-    </div>
-    <select class="sort-select" id="sort-select" aria-label="Trier les événements">
-      <option value="date_asc">Date ↑ (plus proche)</option>
-      <option value="date_desc">Date ↓ (plus lointain)</option>
-      <option value="title_asc">Titre A→Z</option>
-    </select>
-  </div>
-  <div class="search-row">
-    <select class="sort-select" id="country-filter" aria-label="Filtrer par pays"><option value="">Tous les pays</option></select>
-    <select class="sort-select" id="year-filter" aria-label="Filtrer par année">
-      <option value="">2026 et 2027</option><option value="2026">2026</option><option value="2027">2027</option>
-    </select>
-  </div>
-  <div class="filter-row">
-    <span class="filter-label">Filtre :</span>
-    <button class="filter-btn active" data-cat="all" aria-pressed="true">Tous</button>
-    <button class="filter-btn" data-cat="cosplay" aria-pressed="false">🎭 Cosplay</button>
-    <button class="filter-btn" data-cat="medieval" aria-pressed="false">⚔️ Médiéval</button>
-    <button class="filter-btn" data-cat="geek" aria-pressed="false">🎮 Geek</button>
-    <button class="filter-btn" data-cat="rencontre-acteur" aria-pressed="false">🎬 Rencontre Acteur</button>
-  </div>
-  <div class="past-toggle-row">
-    <button class="filter-btn btn-past" id="toggle-past" aria-pressed="false" onclick="togglePast()">🕓 Voir aussi les événements passés</button>
-  </div>
-</div>
-
-<div class="results-info" id="results-info" aria-live="polite"></div>
-
-<div class="events-grid" id="events-grid" aria-busy="true">
-  <div class="loading"><div class="spinner"></div></div>
-</div>
-
-</main>
-<noscript><p class="catalog-note">Activez JavaScript pour consulter et filtrer l’agenda. <a href="data/events.json">Consulter les données JSON</a>.</p></noscript>
-<div class="modal-overlay" id="modal-overlay">
-  <div class="modal" id="modal-content" role="dialog" aria-modal="true" aria-labelledby="modal-title" tabindex="-1">
-    <div class="modal-header">
-      <div class="modal-header-left">
-        <div class="modal-header-eyebrow">✦ Fiche événement</div>
-        <h2 id="modal-title"></h2>
-      </div>
-      <button class="modal-close" id="modal-close" aria-label="Fermer la fiche">✕</button>
-    </div>
-    <div class="modal-body">
-      <div class="modal-cat-row" id="modal-cat"></div>
-      <div class="modal-info-grid" id="modal-info"></div>
-      <hr class="modal-divider">
-      <div class="modal-desc-label">Description</div>
-      <p class="modal-desc" id="modal-desc"></p>
-      <p class="modal-source" id="modal-source"></p>
-      <div class="modal-footer">
-        <span class="modal-serial" id="modal-serial"></span>
-        <div id="modal-link"></div>
-      </div>
-    </div>
-  </div>
-</div>
-
-<footer>
-  <p>OSO Convention — Agenda communautaire &bull; <a href="data/events.json">Télécharger l’agenda JSON</a></p>
-</footer>
-
-
-</body>
-</html>
+<a class="skip-link" href="#agenda">Aller à l’agenda</a>
+<header class="site-header"><a class="brand" href="index.html"><span class="brand-mark">✦</span> OSO <span>Convention</span></a><nav aria-label="Navigation principale"><a href="#agenda">Explorer</a><button id="nav-favorites" class="nav-save" aria-pressed="false">♡ Mes favoris <span id="favorite-count">0</span></button></nav></header>
+<main id="main-content">
+<section class="hero" aria-labelledby="hero-title"><div class="hero-copy"><p class="eyebrow">Le rendez-vous des passionnés · Europe 2026–2027</p><h1 id="hero-title">À chaque passion,<br>son <em>grand rendez-vous.</em></h1><p class="hero-intro">Un costume à préparer. Une rencontre à vivre.<br>Votre prochaine aventure commence ici.</p><a class="primary" href="#agenda">Trouver mon événement</a><span class="hero-footnote">Geek · Médiéval · Cosplay · Rencontre Acteur</span></div><div class="hero-art" aria-hidden="true"><div class="orbit orbit-one"></div><div class="orbit orbit-two"></div><span class="art-star">✦</span><div class="hero-ticket"><span class="ticket-kicker">PASS EXPLORATEUR</span><span class="hero-ticket-icon">✦</span><strong>LA PASSION<br>EN GRAND.</strong><span>EUROPE · 2026 / 2027</span><div class="barcode"></div><span>LES MEILLEURS SOUVENIRS SONT À VENIR</span></div><span class="round-stamp">SORTIR<br>RENCONTRER<br>S’ÉMERVEILLER</span></div></section>
+<section class="stats-bar" aria-label="L’agenda en chiffres"><div><strong id="stat-total">—</strong><span>événements à venir</span></div><div><strong id="stat-month">—</strong><span>ce mois-ci</span></div><div><strong id="stat-cities">—</strong><span>villes à explorer</span></div><p>Des rendez-vous dans toute l’Europe.<br><span>Une seule envie : y être.</span></p></section>
+<section class="featured-section" aria-labelledby="featured-title"><div class="section-heading"><div><p class="eyebrow">À mettre dans votre agenda</p><h2 id="featured-title">Sous les projecteurs</h2></div><a href="#agenda">Explorer les événements</a></div><div id="featured-grid" class="featured-grid"></div></section>
+<section id="agenda" class="agenda-section" aria-labelledby="agenda-title"><div class="section-heading"><div><p class="eyebrow">Choisissez votre prochaine escale</p><h2 id="agenda-title">L’agenda des passionnés</h2></div><span class="edition-tag">ÉDITION 2026—2027</span></div>
+<div class="controls"><div class="search-row"><label class="search-box"><span aria-hidden="true">⌕</span><span class="sr-only">Rechercher un événement, un invité, une ville ou un pays</span><input type="search" id="search-input" placeholder="Un événement, un invité, une ville…"></label><button id="mobile-filters" class="secondary" aria-expanded="false" aria-controls="filter-panel">Filtres</button></div>
+<div class="filter-row" aria-label="Catégories"><button class="filter-btn active" data-cat="all" aria-pressed="true">Tous les univers</button><button class="filter-btn" data-cat="geek" aria-pressed="false">✦ Geek</button><button class="filter-btn" data-cat="medieval" aria-pressed="false">⚔ Médiéval</button><button class="filter-btn" data-cat="cosplay" aria-pressed="false">◇ Cosplay</button><button class="filter-btn" data-cat="rencontre-acteur" aria-pressed="false">✧ Rencontre Acteur</button></div>
+<div id="filter-panel" class="filter-panel"><label>Pays<select id="country-filter"><option value="">Tous les pays</option></select></label><label>Année<select id="year-filter"><option value="">2026 et 2027</option><option>2026</option><option>2027</option></select></label><label>À partir du<span class="date-control"><input type="date" id="date-from-filter"><button id="date-from-clear" aria-label="Effacer la date" hidden>×</button></span></label><label>Trier<select id="sort-select"><option value="date_asc">Date la plus proche</option><option value="date_desc">Date la plus lointaine</option><option value="title_asc">Nom A–Z</option></select></label><button id="reset-filters" class="text-button">Réinitialiser</button></div>
+<div class="quick-row"><div class="quick-filters" aria-label="Période"><button data-period="all" class="quick active" aria-pressed="true">Toutes les dates</button><button data-period="weekend" class="quick" aria-pressed="false">Ce week-end</button><button data-period="next-month" class="quick" aria-pressed="false">Le mois prochain</button></div><button id="favorites-filter" class="quick" aria-pressed="false">♡ Mes favoris</button><button class="quick" id="toggle-past" aria-pressed="false">Voir les événements passés</button></div></div>
+<div class="results-toolbar"><p id="results-info" role="status"></p><div class="view-switch" aria-label="Mode d’affichage"><button data-view="list" class="active" aria-pressed="true">☷ Liste</button><button data-view="calendar" aria-pressed="false">▦ Calendrier</button><button data-view="map" aria-pressed="false">◎ Carte</button></div></div>
+<div id="calendar-panel" class="calendar-panel" hidden><div class="calendar-nav"><button id="month-prev" class="secondary" aria-label="Mois précédent">‹</button><h3 id="calendar-title" aria-live="polite"></h3><button id="month-next" class="secondary" aria-label="Mois suivant">›</button><button id="calendar-today" class="text-button">Ce mois-ci</button></div><p class="muted">Chaque jour affiche les événements en cours. Cliquez sur un rendez-vous pour ouvrir sa fiche.</p><div class="calendar-scroll"><div id="calendar-grid" class="calendar-grid"></div></div></div>
+<div id="map-panel" class="map-panel" hidden><div class="map-intro"><h3>Une passion sans frontières</h3><p>Choisissez un pays pour découvrir ses rendez-vous. Les nombres correspondent aux événements filtrés, pas à leur adresse exacte.</p><button id="map-reset" class="text-button">Afficher tous les pays</button></div><div id="europe-map" class="europe-map"></div><div id="map-countries" class="map-countries" aria-label="Choisir un pays sur la carte"></div><p class="map-credit">Fond géographique : <a href="https://www.naturalearthdata.com/" target="_blank" rel="noopener noreferrer">Natural Earth</a> · repères par pays</p></div>
+<div id="events-grid" class="events-grid" aria-busy="true"><p class="empty">Chargement de vos prochaines aventures…</p></div><p id="catalog-note" class="catalog-note"></p><p class="storage-note">Vos favoris restent dans ce navigateur, sans compte. Les annonces et les invités peuvent évoluer.</p>
+</section></main>
+<footer><a class="brand" href="index.html">✦ OSO Convention</a><p>Les univers changent. La passion nous rassemble.</p><a href="data/events.json">Télécharger l’agenda JSON</a></footer>
+<div class="modal-overlay" id="modal-overlay" hidden><section class="modal" id="modal-content" role="dialog" aria-modal="true" aria-labelledby="modal-title" tabindex="-1"><button id="modal-close" class="modal-close" aria-label="Fermer la fiche">×</button><div id="modal-visual"></div><div class="modal-body"><div id="modal-cat"></div><h2 id="modal-title"></h2><div id="modal-info" class="modal-info-grid"></div><p id="modal-desc"></p><div id="modal-guests"></div><p id="modal-source" class="muted"></p><div id="modal-link" class="modal-actions"></div><span id="modal-serial" class="muted"></span></div></section></div>
+<div id="toast" class="toast" role="status" hidden></div><noscript><p>Activez JavaScript pour explorer l’agenda ou <a href="data/events.json">consultez le catalogue JSON</a>.</p></noscript>
+</body></html>
