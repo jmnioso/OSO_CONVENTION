@@ -3,10 +3,10 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>OSO Convention — Événements Cosplay, Médiéval & Geek</title>
+<title>OSO Convention — Événements Cosplay, Médiéval, Geek & Rencontre Acteur</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Special+Elite&family=Courier+Prime:wght@400;700&display=swap" rel="stylesheet">
-<meta name="description" content="L’agenda OSO Convention : prochains événements geek, médiévaux et cosplay en France, avec dates et liens officiels.">
+<meta name="description" content="L’agenda OSO Convention : prochains événements geek, médiévaux, cosplay et rencontres avec des acteurs en Europe, avec dates et liens officiels.">
 <script src="app.js" defer></script>
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -20,9 +20,9 @@
 </nav>
 
 <div class="hero">
-  <div class="hero-eyebrow">Agenda des passionnés · France · 2026–2027</div>
+  <div class="hero-eyebrow">Agenda des passionnés · Europe · 2026–2027</div>
   <h1>OSO <span style="color:var(--red)">Convention</span></h1>
-  <div class="hero-sub">Cosplay &nbsp;·&nbsp; Médiéval &nbsp;·&nbsp; Geek</div>
+  <div class="hero-sub">Cosplay &nbsp;·&nbsp; Médiéval &nbsp;·&nbsp; Geek &nbsp;·&nbsp; Rencontre Acteur</div>
 </div>
 
 <div class="stats-bar">
@@ -38,7 +38,7 @@
   <div class="search-row">
     <div class="search-box">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
-      <input type="search" aria-label="Rechercher un événement ou une ville" id="search-input" placeholder="Rechercher par titre, ville…">
+      <input type="search" aria-label="Rechercher un événement, une ville ou un pays" id="search-input" placeholder="Rechercher par titre, ville, pays…">
     </div>
     <div class="date-from-box">
       <span class="date-from-label">À partir du</span>
@@ -51,12 +51,19 @@
       <option value="title_asc">Titre A→Z</option>
     </select>
   </div>
+  <div class="search-row">
+    <select class="sort-select" id="country-filter" aria-label="Filtrer par pays"><option value="">Tous les pays</option></select>
+    <select class="sort-select" id="year-filter" aria-label="Filtrer par année">
+      <option value="">2026 et 2027</option><option value="2026">2026</option><option value="2027">2027</option>
+    </select>
+  </div>
   <div class="filter-row">
     <span class="filter-label">Filtre :</span>
     <button class="filter-btn active" data-cat="all" aria-pressed="true">Tous</button>
     <button class="filter-btn" data-cat="cosplay" aria-pressed="false">🎭 Cosplay</button>
     <button class="filter-btn" data-cat="medieval" aria-pressed="false">⚔️ Médiéval</button>
     <button class="filter-btn" data-cat="geek" aria-pressed="false">🎮 Geek</button>
+    <button class="filter-btn" data-cat="rencontre-acteur" aria-pressed="false">🎬 Rencontre Acteur</button>
   </div>
   <div class="past-toggle-row">
     <button class="filter-btn btn-past" id="toggle-past" aria-pressed="false" onclick="togglePast()">🕓 Voir aussi les événements passés</button>

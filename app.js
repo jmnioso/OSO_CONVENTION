@@ -1,7 +1,7 @@
 
 'use strict';
-const CAT_LABELS = { cosplay:'Cosplay', medieval:'Médiéval', geek:'Geek', foire:'Foire', autre:'Autre' };
-const CAT_ICONS  = { cosplay:'🎭', medieval:'⚔️', geek:'🎮', foire:'🎪', autre:'✦' };
+const CAT_LABELS = { cosplay:'Cosplay', medieval:'Médiéval', geek:'Geek', 'rencontre-acteur':'Rencontre Acteur' };
+const CAT_ICONS  = { cosplay:'🎭', medieval:'⚔️', geek:'🎮', 'rencontre-acteur':'🎬' };
 let allEvents = [], currentCat = 'all', currentSort = 'date_asc', showPast = false;
 const today = new Date(); today.setHours(0,0,0,0);
 const todayStr = localDate(today);
@@ -60,13 +60,15 @@ async function loadEvents() {
     const ids = new Set();
     allEvents = catalog.events.map(event => {
       if (!event.id || !/^[a-z0-9-]+$/.test(event.id) || ids.has(event.id) ||
-          !['geek', 'medieval', 'cosplay'].includes(event.category) ||
-          !event.title || !event.location_city || !/^\d{4}-\d{2}-\d{2}$/.test(event.date_start) ||
+          !Object.keys(CAT_LABELS).includes(event.category) ||
+          !event.title || !event.location_city || !event.location_country || !/^\d{4}-\d{2}-\d{2}$/.test(event.date_start) ||
           !event.date_end || event.date_end < event.date_start) throw new Error('Événement invalide');
       ids.add(event.id);
       return event;
     });
-    document.getElementById('catalog-note').textContent = `Sélection d’événements en France · Mise à jour le ${formatDate(catalog.updated_at)}. Consultez le site officiel avant votre déplacement.`;
+    document.getElementById('catalog-note').textContent = `Catalogue européen non exhaustif · Mise à jour le ${formatDate(catalog.updated_at)}. Consultez le site officiel avant votre déplacement.`;
+    const countries = [...new Set(allEvents.map(e => e.location_country))].sort((a,b) => a.localeCompare(b, 'fr'));
+    document.getElementById('country-filter').innerHTML = '<option value="">Tous les pays</option>' + countries.map(country => `<option value="${escapeHtml(country)}">${escapeHtml(country)}</option>`).join('');
     updateStats();
     renderEvents();
   } catch (error) {
@@ -84,7 +86,7 @@ function updateStats() {
   const now = new Date();
   const endOfMonth = new Date(now.getFullYear(), now.getMonth()+1, 0);
   const thisMonth = upcoming.filter(e => e.date_start <= localDate(endOfMonth));
-  const cities = new Set(upcoming.map(e => e.location_city));
+  const cities = new Set(upcoming.map(e => `${e.location_city}, ${e.location_country}`));
   document.getElementById('stat-total').textContent = upcoming.length;
   document.getElementById('stat-month').textContent = thisMonth.length;
   document.getElementById('stat-cities').textContent = cities.size;
@@ -92,12 +94,18 @@ function updateStats() {
 
 function getFilteredSorted() {
   const q = document.getElementById('search-input').value.toLowerCase().trim();
+  const country = document.getElementById('country-filter').value;
+  const year = document.getElementById('year-filter').value;
   const dateFrom = document.getElementById('date-from-filter').value;
   let arr = allEvents.filter(e => showPast || !isPast(e.date_end || e.date_start));
+  if (country) arr = arr.filter(e => e.location_country === country);
+  if (year) arr = arr.filter(e => e.date_start <= `${year}-12-31` && e.date_end >= `${year}-01-01`);
   if (currentCat !== 'all') arr = arr.filter(e => (e.category === currentCat || (e.tags || []).includes(currentCat)));
   if (q) arr = arr.filter(e =>
     e.title.toLowerCase().includes(q) ||
     e.location_city.toLowerCase().includes(q) ||
+    (e.location_country || '').toLowerCase().includes(q) ||
+    (e.organizer || '').toLowerCase().includes(q) ||
     (e.location_name && e.location_name.toLowerCase().includes(q)) ||
     (e.description && e.description.toLowerCase().includes(q))
   );
@@ -141,7 +149,7 @@ function renderEvents() {
         <div class="ticket-meta">
           <div class="ticket-meta-item">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
-            ${e.location_name ? escapeHtml(e.location_name)+', ' : ''}${escapeHtml(e.location_city)}
+            ${e.location_name ? escapeHtml(e.location_name)+', ' : ''}${escapeHtml(e.location_city)} · ${escapeHtml(e.location_country)}
           </div>
           ${past ? '<span class="past-label">Passé</span>' : ''}
           ${e.price ? `<span class="price-tag">${escapeHtml(e.price)}</span>` : ''}
@@ -173,7 +181,7 @@ function openModal(id) {
     : formatDate(e.date_start);
   document.getElementById('modal-info').innerHTML = `
     <div class="modal-info-item"><label>📅 Date</label><span>${dateStr}</span></div>
-    <div class="modal-info-item"><label>📍 Lieu</label><span>${escapeHtml(e.location_name)}, ${escapeHtml(e.location_city)}</span></div>
+    <div class="modal-info-item"><label>📍 Lieu</label><span>${e.location_name ? escapeHtml(e.location_name) + ', ' : ''}${escapeHtml(e.location_city)} · ${escapeHtml(e.location_country)}</span></div>
     ${e.location_address ? `<div class="modal-info-item"><label>🗺️ Adresse</label><span>${escapeHtml(e.location_address)}</span></div>` : ''}
     ${e.price ? `<div class="modal-info-item"><label>💶 Tarif</label><span>${escapeHtml(e.price)}</span></div>` : ''}
     ${e.organizer ? `<div class="modal-info-item"><label>👤 Organisateur</label><span>${escapeHtml(e.organizer)}</span></div>` : ''}
@@ -192,6 +200,7 @@ document.getElementById('modal-close').addEventListener('click', closeModal);
 document.getElementById('modal-overlay').addEventListener('click', e => { if (e.target === document.getElementById('modal-overlay')) closeModal(); });
 function closeModal() { document.getElementById('modal-overlay').classList.remove('open'); document.body.style.overflow = ''; previousFocus?.focus(); }
 document.addEventListener('keydown', e => { if (e.key === 'Escape') closeModal(); });
+['country-filter', 'year-filter'].forEach(id => document.getElementById(id).addEventListener('change', renderEvents));
 document.getElementById('search-input').addEventListener('input', renderEvents);
 document.getElementById('date-from-filter').addEventListener('change', function() {
   document.getElementById('date-from-clear').style.display = this.value ? 'block' : 'none';

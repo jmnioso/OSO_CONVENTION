@@ -1,6 +1,6 @@
 # OSO_CONVENTION
 
-Agenda statique des événements geek, médiévaux et cosplay en France, adapté de [Quel_Conv](https://github.com/jmnioso/Quel_Conv) (révision source `da28c18`). La charte papier, les typographies, les couleurs et les cartes en forme de billets sont conservées.
+Agenda statique des événements geek, médiévaux cosplay et rencontres avec des acteurs en Europe, adapté de [Quel_Conv](https://github.com/jmnioso/Quel_Conv) (révision source `da28c18`). La charte papier, les typographies, les couleurs et les cartes en forme de billets sont conservées.
 
 Aucune base de données, clé API, connexion ou page d’administration. Le navigateur charge directement `data/events.json`. Aucun outil de compilation ni dépendance JavaScript à installer.
 
@@ -35,6 +35,7 @@ Chaque événement contient :
   "date_start": "2027-06-12",
   "date_end": "2027-06-13",
   "location_city": "Ville",
+  "location_country": "France",
   "location_name": "Lieu de l’événement",
   "location_address": "",
   "description": "Présentation courte et factuelle.",
@@ -46,17 +47,23 @@ Chaque événement contient :
 }
 ```
 
-- Catégories et tags acceptés : `geek`, `medieval`, `cosplay`. Les tags permettent à une convention de figurer dans plusieurs filtres.
+- Catégories et tags acceptés : `geek`, `medieval`, `cosplay`, `rencontre-acteur`. Les tags permettent à une convention de figurer dans plusieurs filtres.
 - Identifiant unique en minuscules, chiffres et tirets. Dates au format `AAAA-MM-JJ` ; pour un jour unique, début et fin identiques.
 - Un événement reste visible jusqu’à sa date de fin incluse. Le bouton « événements passés » permet ensuite de le retrouver sans le supprimer du JSON.
 - Pour plusieurs week-ends séparés, créer une entrée par période : ne pas inclure les jours de fermeture.
 - Vérifier les dates sur une annonce officielle ; ne pas extrapoler une édition annuelle. Laisser un champ facultatif vide lorsque l’information n’est pas publiée.
 
-## Catalogue initial
+## Catalogue européen 2026–2027
 
-23 entrées vérifiées le **19 novembre 2026**, de novembre 2026 à octobre 2027 : Geek Life, TGS Toulouse, Japan Touch, TGF Tarbes, Japan Manga Wave, Angers Geekfest, Japan Expo, marchés médiévaux de Noël de Provins et Ribeauvillé, Biot et les Templiers et Médiévales de Provins. Il s’agit d’une sélection non exhaustive, à entretenir dans le JSON. Les dates et tarifs peuvent évoluer.
+102 entrées dans 14 pays, vérifiées le **19 novembre 2026**. Cette sélection couvre les dates publiées retrouvées ; elle ne prétend pas recenser tous les événements européens ni toutes les éditions 2027.
 
-Chaque fiche porte sa propre source et sa date de vérification, également visibles dans le site. Exemples de sources : [Geek Life](https://www.geeklife.fr/), [Japan Manga Wave](https://japanmangawave.com/), [Médiévales de Provins](https://provins-medievales.com/), [Ville de Biot](https://www.biot.fr/appel-a-candidatures-pour-le-marche-medieval-de-biot-et-les-templiers-2027).
+Priorités intégrées : Comic Con (dont France, Londres, Birmingham, Liverpool, Bruxelles, Utrecht, Prague, Bâle, Stockholm), Yggdrasil Indoor 2026/2027, Fort Fort Lointain 2026, les deux week-ends de L’Étrange Noël des Sorciers 2026, Normannia 2026/2027, Geek Life et TGS. La catégorie **Rencontre Acteur** inclut Dream It, People Conventions, FedCon et les conventions spécialisées de WE LOVE CONVENTIONS.
+
+Chaque fiche contient une source de date, un lien de visite et une date de vérification. Les sources sont principalement les organisateurs et lieux d’accueil ; quelques archives 2026 utilisent Roster Con ou un exposant participant. Les dates 2027 ne sont jamais déduites des éditions précédentes. Les lieux précis non vérifiés et les tarifs sont laissés vides ou renvoient au site officiel.
+
+Le tableau `pending_editions` du même JSON conserve les éditions prioritaires encore sans date confirmée et les contradictions à résoudre. Ces lignes ne sont pas des événements datés et ne sont pas affichées dans l’agenda. Cela concerne notamment Yggdrasil extérieur/Noël 2027, TGS 2027, Dream It 2027 et MCM Londres automne 2027. Ce suivi est manuel ; aucun robot ni mise à jour automatique n’est configuré.
+
+Les filtres pays, année et catégorie se combinent avec la recherche. Pour parcourir toute l’année 2026, activer aussi **Voir les événements passés** et laisser la date de début vide. Les statistiques concernent toujours les événements à venir du catalogue entier.
 
 ## Vérifier
 

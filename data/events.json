@@ -1,9 +1,674 @@
 {
   "schema_version": 1,
   "updated_at": "2026-11-19",
-  "scope": "France",
-  "note": "Sélection non exhaustive de dates annoncées. Vérifier les informations auprès des organisateurs avant de se déplacer.",
+  "scope": "Europe",
+  "note": "Catalogue européen 2026–2027 non exhaustif, fondé sur les dates publiées. Les éditions sans dates confirmées sont suivies séparément et ne figurent pas dans l’agenda.",
   "events": [
+    {
+      "id": "geek-life-le-mans-2026",
+      "title": "Geek Life Le Mans 2026",
+      "category": "geek",
+      "tags": [
+        "geek",
+        "cosplay"
+      ],
+      "date_start": "2026-01-17",
+      "date_end": "2026-01-18",
+      "location_city": "Le Mans",
+      "location_country": "France",
+      "location_name": "Centre des Expositions",
+      "location_address": "",
+      "description": "Convention de culture geek, comics et cosplay.",
+      "price": "Voir le site officiel",
+      "organizer": "JCK Production",
+      "website": "https://www.geeklife.fr/",
+      "source_url": "https://www.youtube.com/watch?v=FKGK0k7LXqk",
+      "verified_at": "2026-11-19"
+    },
+    {
+      "id": "dream-it-beacon-hills-forever-4-2026",
+      "title": "Dream It — Beacon Hills Forever 4 2026",
+      "category": "rencontre-acteur",
+      "tags": [
+        "rencontre-acteur"
+      ],
+      "date_start": "2026-01-31",
+      "date_end": "2026-02-01",
+      "location_city": "Bagnolet",
+      "location_country": "France",
+      "location_name": "1 avenue de la République",
+      "location_address": "",
+      "description": "Rencontres autour de Teen Wolf.",
+      "price": "Voir le site officiel",
+      "organizer": "Dream It Conventions",
+      "website": "https://www.dreamit-conventions.com/en",
+      "source_url": "https://www.dreamit-conventions.com/en",
+      "verified_at": "2026-11-19"
+    },
+    {
+      "id": "normannia-2026",
+      "title": "Normannia 2026",
+      "category": "medieval",
+      "tags": [
+        "medieval",
+        "cosplay"
+      ],
+      "date_start": "2026-02-14",
+      "date_end": "2026-02-15",
+      "location_city": "Le Grand-Quevilly",
+      "location_country": "France",
+      "location_name": "Parc Expo de Rouen",
+      "location_address": "",
+      "description": "Salon médiéval et fantastique de Rouen.",
+      "price": "Voir le site officiel",
+      "organizer": "Fédération Française Médiévale",
+      "website": "https://www.federation-francaise-medievale.fr/normannia",
+      "source_url": "https://openagenda.com/en/parc-expo-de-rouen/events/normannia-salon-medieval-et-fantastique",
+      "verified_at": "2026-11-19"
+    },
+    {
+      "id": "yggdrasil-indoor-2026",
+      "title": "Yggdrasil Indoor 2026",
+      "category": "geek",
+      "tags": [
+        "geek",
+        "medieval",
+        "cosplay"
+      ],
+      "date_start": "2026-03-07",
+      "date_end": "2026-03-08",
+      "location_city": "Chassieu",
+      "location_country": "France",
+      "location_name": "Eurexpo Lyon",
+      "location_address": "",
+      "description": "Festival de l’imaginaire : La Cité des 1000 Dragons.",
+      "price": "Voir le site officiel",
+      "organizer": "Yggdrasil",
+      "website": "https://festyggdrasil.fr/",
+      "source_url": "https://festyggdrasil.fr/",
+      "verified_at": "2026-11-19"
+    },
+    {
+      "id": "comic-con-prague-2026",
+      "title": "Comic-Con Prague 2026",
+      "category": "geek",
+      "tags": [
+        "geek",
+        "cosplay"
+      ],
+      "date_start": "2026-03-13",
+      "date_end": "2026-03-15",
+      "location_city": "Prague",
+      "location_country": "Tchéquie",
+      "location_name": "O2 universum",
+      "location_address": "",
+      "description": "Convention de culture geek, comics et cosplay.",
+      "price": "Voir le site officiel",
+      "organizer": "",
+      "website": "https://www.o2universum.cz/events/comic-con-prague-2026/",
+      "source_url": "https://www.o2universum.cz/events/comic-con-prague-2026/",
+      "verified_at": "2026-11-19"
+    },
+    {
+      "id": "paris-manga-sci-fi-show-39-by-tgs-2026",
+      "title": "Paris Manga & Sci-Fi Show 39 by TGS 2026",
+      "category": "geek",
+      "tags": [
+        "geek",
+        "cosplay"
+      ],
+      "date_start": "2026-03-14",
+      "date_end": "2026-03-15",
+      "location_city": "Villepinte",
+      "location_country": "France",
+      "location_name": "Parc des Expositions Paris Nord Villepinte",
+      "location_address": "",
+      "description": "Convention de culture geek, comics et cosplay.",
+      "price": "Voir le site officiel",
+      "organizer": "TGS Événements",
+      "website": "https://www.parismanga.fr/",
+      "source_url": "https://www.rostercon.com/fr/evenement-convention/paris-manga-sci-fi-show-39-by-tgs-2026",
+      "verified_at": "2026-11-19"
+    },
+    {
+      "id": "tgs-montpellier-2026",
+      "title": "TGS Montpellier 2026",
+      "category": "geek",
+      "tags": [
+        "geek",
+        "cosplay"
+      ],
+      "date_start": "2026-04-11",
+      "date_end": "2026-04-12",
+      "location_city": "Pérols",
+      "location_country": "France",
+      "location_name": "Parc des Expositions de Montpellier",
+      "location_address": "",
+      "description": "Convention de culture geek, comics et cosplay.",
+      "price": "Voir le site officiel",
+      "organizer": "TGS Événements",
+      "website": "https://tgs-montpellier.fr/",
+      "source_url": "https://www.parc-expo-montpellier.com/evenement/tgs-montpellier-occitanie-game-show-2026/",
+      "verified_at": "2026-11-19"
+    },
+    {
+      "id": "comic-con-france-2026",
+      "title": "Comic Con France 2026",
+      "category": "geek",
+      "tags": [
+        "geek",
+        "cosplay"
+      ],
+      "date_start": "2026-04-18",
+      "date_end": "2026-04-19",
+      "location_city": "Villepinte",
+      "location_country": "France",
+      "location_name": "Parc des Expositions Paris Nord Villepinte",
+      "location_address": "",
+      "description": "Convention de culture geek, comics et cosplay.",
+      "price": "Voir le site officiel",
+      "organizer": "",
+      "website": "https://comiccon.fr/en/homepage-en/",
+      "source_url": "https://www.youtube.com/watch?v=jbQClExF_eQ",
+      "verified_at": "2026-11-19"
+    },
+    {
+      "id": "comic-con-portugal-2026",
+      "title": "Comic Con Portugal 2026",
+      "category": "geek",
+      "tags": [
+        "geek",
+        "cosplay"
+      ],
+      "date_start": "2026-04-23",
+      "date_end": "2026-04-26",
+      "location_city": "Santa Maria da Feira",
+      "location_country": "Portugal",
+      "location_name": "Europarque",
+      "location_address": "",
+      "description": "Convention de culture geek, comics et cosplay.",
+      "price": "Voir le site officiel",
+      "organizer": "",
+      "website": "https://evento.comic-con-portugal.com/en/faqs-2/",
+      "source_url": "https://evento.comic-con-portugal.com/en/faqs-2/",
+      "verified_at": "2026-11-19"
+    },
+    {
+      "id": "geek-life-lorient-2026",
+      "title": "Geek Life Lorient 2026",
+      "category": "geek",
+      "tags": [
+        "geek",
+        "cosplay"
+      ],
+      "date_start": "2026-05-09",
+      "date_end": "2026-05-10",
+      "location_city": "Lanester",
+      "location_country": "France",
+      "location_name": "Parc des Expositions Lorient Bretagne Sud",
+      "location_address": "",
+      "description": "Convention de culture geek, comics et cosplay.",
+      "price": "Voir le site officiel",
+      "organizer": "JCK Production",
+      "website": "https://www.geeklife.fr/",
+      "source_url": "https://www.geeklife.fr/wp-content/uploads/2026/04/PROGRAMME_LORIENT_2026_compressed.pdf",
+      "verified_at": "2026-11-19"
+    },
+    {
+      "id": "mcm-london-comic-con-printemps-2026",
+      "title": "MCM London Comic Con — printemps 2026",
+      "category": "geek",
+      "tags": [
+        "geek",
+        "cosplay"
+      ],
+      "date_start": "2026-05-22",
+      "date_end": "2026-05-24",
+      "location_city": "Londres",
+      "location_country": "Royaume-Uni",
+      "location_name": "ExCeL London",
+      "location_address": "",
+      "description": "Convention de culture geek, comics et cosplay.",
+      "price": "Voir le site officiel",
+      "organizer": "",
+      "website": "https://www.mcmcomiccon.com/global/en-us/blog/comics/mcm-comic-con-2026-dates.html",
+      "source_url": "https://www.mcmcomiccon.com/global/en-us/blog/comics/mcm-comic-con-2026-dates.html",
+      "verified_at": "2026-11-19"
+    },
+    {
+      "id": "dream-it-first-responders-reunion-8-2026",
+      "title": "Dream It — First Responders Reunion 8 2026",
+      "category": "rencontre-acteur",
+      "tags": [
+        "rencontre-acteur"
+      ],
+      "date_start": "2026-06-13",
+      "date_end": "2026-06-14",
+      "location_city": "Tremblay-en-France",
+      "location_country": "France",
+      "location_name": "8 rue de Rome",
+      "location_address": "",
+      "description": "Rencontres autour de Station 19, Grey’s Anatomy et 9-1-1: Lone Star.",
+      "price": "Voir le site officiel",
+      "organizer": "Dream It Conventions",
+      "website": "https://www.dreamit-conventions.com/en",
+      "source_url": "https://www.dreamit-conventions.com/en",
+      "verified_at": "2026-11-19"
+    },
+    {
+      "id": "tgs-springbreak-2026",
+      "title": "TGS Springbreak 2026",
+      "category": "geek",
+      "tags": [
+        "geek",
+        "cosplay"
+      ],
+      "date_start": "2026-06-13",
+      "date_end": "2026-06-14",
+      "location_city": "Labège",
+      "location_country": "France",
+      "location_name": "Centre de Congrès Diagora",
+      "location_address": "",
+      "description": "Convention de culture geek, comics et cosplay.",
+      "price": "Voir le site officiel",
+      "organizer": "TGS Événements",
+      "website": "https://www.tgs-springbreak.fr/",
+      "source_url": "https://www.rostercon.com/fr/evenement-convention/tgs-springbreak-2026",
+      "verified_at": "2026-11-19"
+    },
+    {
+      "id": "darklight-convention-7-2026",
+      "title": "DarkLight Convention 7 — 2026",
+      "category": "rencontre-acteur",
+      "tags": [
+        "rencontre-acteur"
+      ],
+      "date_start": "2026-07-04",
+      "date_end": "2026-07-05",
+      "location_city": "Saint-Denis",
+      "location_country": "France",
+      "location_name": "",
+      "location_address": "",
+      "description": "Convention de rencontres avec des acteurs de films et séries.",
+      "price": "Voir le site officiel",
+      "organizer": "People Conventions",
+      "website": "https://www.people-convention.com/",
+      "source_url": "https://www.people-convention.com/",
+      "verified_at": "2026-11-19"
+    },
+    {
+      "id": "mercado-medieval-de-obidos-2026",
+      "title": "Mercado Medieval de Óbidos 2026",
+      "category": "medieval",
+      "tags": [
+        "medieval"
+      ],
+      "date_start": "2026-07-16",
+      "date_end": "2026-07-26",
+      "location_city": "Óbidos",
+      "location_country": "Portugal",
+      "location_name": "Ville médiévale",
+      "location_address": "",
+      "description": "Marché et animations historiques dans la cité fortifiée.",
+      "price": "Voir le site officiel",
+      "organizer": "",
+      "website": "https://mercadomedievalobidos.pt/",
+      "source_url": "https://mercadomedievalobidos.pt/",
+      "verified_at": "2026-11-19"
+    },
+    {
+      "id": "medeltidsveckan-semaine-medievale-de-gotland-2026",
+      "title": "Medeltidsveckan — Semaine médiévale de Gotland 2026",
+      "category": "medieval",
+      "tags": [
+        "medieval"
+      ],
+      "date_start": "2026-08-02",
+      "date_end": "2026-08-09",
+      "location_city": "Visby",
+      "location_country": "Suède",
+      "location_name": "Gotland",
+      "location_address": "",
+      "description": "Semaine consacrée aux univers médiévaux sur l’île de Gotland.",
+      "price": "Voir le site officiel",
+      "organizer": "",
+      "website": "https://www.medeltidsveckan.se/medeltidsband-festivalband/",
+      "source_url": "https://www.medeltidsveckan.se/medeltidsband-festivalband/",
+      "verified_at": "2026-11-19"
+    },
+    {
+      "id": "mcm-birmingham-comic-con-2026",
+      "title": "MCM Birmingham Comic Con 2026",
+      "category": "geek",
+      "tags": [
+        "geek",
+        "cosplay"
+      ],
+      "date_start": "2026-08-07",
+      "date_end": "2026-08-09",
+      "location_city": "Birmingham",
+      "location_country": "Royaume-Uni",
+      "location_name": "NEC Birmingham",
+      "location_address": "",
+      "description": "Convention de culture geek, comics et cosplay.",
+      "price": "Voir le site officiel",
+      "organizer": "",
+      "website": "https://www.mcmcomiccon.com/global/en-us/blog/comics/mcm-comic-con-2026-dates.html",
+      "source_url": "https://www.mcmcomiccon.com/global/en-us/blog/comics/mcm-comic-con-2026-dates.html",
+      "verified_at": "2026-11-19"
+    },
+    {
+      "id": "dream-it-enter-the-magical-world-4-2026",
+      "title": "Dream It — Enter The Magical World 4 2026",
+      "category": "rencontre-acteur",
+      "tags": [
+        "rencontre-acteur"
+      ],
+      "date_start": "2026-09-05",
+      "date_end": "2026-09-06",
+      "location_city": "Courbevoie",
+      "location_country": "France",
+      "location_name": "Centre Événementiel",
+      "location_address": "",
+      "description": "Convention Dream It autour des univers magiques.",
+      "price": "Voir le site officiel",
+      "organizer": "Dream It Conventions",
+      "website": "https://www.dreamit-conventions.com/en",
+      "source_url": "https://www.dreamit-conventions.com/en",
+      "verified_at": "2026-11-19"
+    },
+    {
+      "id": "yggdrasil-fort-fort-lointain-2026",
+      "title": "Yggdrasil Fort Fort Lointain 2026",
+      "category": "medieval",
+      "tags": [
+        "medieval",
+        "cosplay",
+        "geek"
+      ],
+      "date_start": "2026-09-05",
+      "date_end": "2026-09-06",
+      "location_city": "Bron",
+      "location_country": "France",
+      "location_name": "Hippodrome de Parilly",
+      "location_address": "",
+      "description": "Édition Vikings et dragons du festival Yggdrasil.",
+      "price": "Voir le site officiel",
+      "organizer": "Yggdrasil",
+      "website": "https://fort-fort-lointain.festyggdrasil.fr/",
+      "source_url": "https://fort-fort-lointain.festyggdrasil.fr/",
+      "verified_at": "2026-11-19"
+    },
+    {
+      "id": "east-european-comic-con-2026",
+      "title": "East European Comic Con 2026",
+      "category": "geek",
+      "tags": [
+        "geek",
+        "cosplay"
+      ],
+      "date_start": "2026-09-11",
+      "date_end": "2026-09-13",
+      "location_city": "Bucarest",
+      "location_country": "Roumanie",
+      "location_name": "Arena Națională",
+      "location_address": "",
+      "description": "Convention de culture geek, comics et cosplay.",
+      "price": "Voir le site officiel",
+      "organizer": "",
+      "website": "https://comic-con.ro/faq",
+      "source_url": "https://comic-con.ro/faq",
+      "verified_at": "2026-11-19"
+    },
+    {
+      "id": "geek-life-laval-2026",
+      "title": "Geek Life Laval 2026",
+      "category": "geek",
+      "tags": [
+        "geek",
+        "cosplay"
+      ],
+      "date_start": "2026-09-26",
+      "date_end": "2026-09-27",
+      "location_city": "Laval",
+      "location_country": "France",
+      "location_name": "Espace Mayenne",
+      "location_address": "",
+      "description": "Convention de culture geek, comics et cosplay.",
+      "price": "Voir le site officiel",
+      "organizer": "JCK Production",
+      "website": "https://www.geeklife.fr/",
+      "source_url": "https://www.geeklife.fr/laval/billetterie/",
+      "verified_at": "2026-11-19"
+    },
+    {
+      "id": "san-diego-comic-con-malaga-2026",
+      "title": "San Diego Comic-Con Málaga 2026",
+      "category": "geek",
+      "tags": [
+        "geek",
+        "cosplay"
+      ],
+      "date_start": "2026-10-01",
+      "date_end": "2026-10-04",
+      "location_city": "Málaga",
+      "location_country": "Espagne",
+      "location_name": "FYCMA",
+      "location_address": "",
+      "description": "Convention de culture geek, comics et cosplay.",
+      "price": "Voir le site officiel",
+      "organizer": "",
+      "website": "https://sandiegocomicconmalaga.com/agenda/",
+      "source_url": "https://sandiegocomicconmalaga.com/agenda/",
+      "verified_at": "2026-11-19"
+    },
+    {
+      "id": "forever-mystic-falls-fan-meet-7-paris-2026",
+      "title": "Forever Mystic Falls Fan Meet 7 — Paris 2026",
+      "category": "rencontre-acteur",
+      "tags": [
+        "rencontre-acteur"
+      ],
+      "date_start": "2026-10-03",
+      "date_end": "2026-10-04",
+      "location_city": "Courbevoie",
+      "location_country": "France",
+      "location_name": "",
+      "location_address": "",
+      "description": "Convention de rencontres avec des acteurs de films et séries.",
+      "price": "Voir le site officiel",
+      "organizer": "People Conventions",
+      "website": "https://www.people-convention.com/",
+      "source_url": "https://www.people-convention.com/",
+      "verified_at": "2026-11-19"
+    },
+    {
+      "id": "paris-manga-sci-fi-show-40-by-tgs-2026",
+      "title": "Paris Manga & Sci-Fi Show 40 by TGS 2026",
+      "category": "geek",
+      "tags": [
+        "geek",
+        "cosplay"
+      ],
+      "date_start": "2026-10-03",
+      "date_end": "2026-10-04",
+      "location_city": "Villepinte",
+      "location_country": "France",
+      "location_name": "Parc des Expositions Paris Nord Villepinte",
+      "location_address": "",
+      "description": "Convention de culture geek, comics et cosplay.",
+      "price": "Voir le site officiel",
+      "organizer": "TGS Événements",
+      "website": "https://www.parismanga.fr/",
+      "source_url": "https://mo5.com/actualites/paris-manga-sci-fi-show-2026",
+      "verified_at": "2026-11-19"
+    },
+    {
+      "id": "geek-life-blois-2026",
+      "title": "Geek Life Blois 2026",
+      "category": "geek",
+      "tags": [
+        "geek",
+        "cosplay"
+      ],
+      "date_start": "2026-10-10",
+      "date_end": "2026-10-11",
+      "location_city": "Blois",
+      "location_country": "France",
+      "location_name": "Jeu de Paume",
+      "location_address": "",
+      "description": "Convention de culture geek, comics et cosplay.",
+      "price": "Voir le site officiel",
+      "organizer": "JCK Production",
+      "website": "https://www.geeklife.fr/",
+      "source_url": "https://www.geeklife.fr/blois/",
+      "verified_at": "2026-11-19"
+    },
+    {
+      "id": "mcm-london-comic-con-automne-2026",
+      "title": "MCM London Comic Con — automne 2026",
+      "category": "geek",
+      "tags": [
+        "geek",
+        "cosplay"
+      ],
+      "date_start": "2026-10-23",
+      "date_end": "2026-10-25",
+      "location_city": "Londres",
+      "location_country": "Royaume-Uni",
+      "location_name": "ExCeL London",
+      "location_address": "",
+      "description": "Convention de culture geek, comics et cosplay.",
+      "price": "Voir le site officiel",
+      "organizer": "",
+      "website": "https://www.mcmcomiccon.com/london/en-us/tickets.html",
+      "source_url": "https://www.mcmcomiccon.com/london/en-us/tickets.html",
+      "verified_at": "2026-11-19"
+    },
+    {
+      "id": "lucca-comics-games-2026",
+      "title": "Lucca Comics & Games 2026",
+      "category": "geek",
+      "tags": [
+        "geek",
+        "cosplay"
+      ],
+      "date_start": "2026-10-28",
+      "date_end": "2026-11-01",
+      "location_city": "Lucques",
+      "location_country": "Italie",
+      "location_name": "Centre historique",
+      "location_address": "",
+      "description": "Convention de culture geek, comics et cosplay.",
+      "price": "Voir le site officiel",
+      "organizer": "",
+      "website": "https://www.luccacomicsandgames.com/",
+      "source_url": "https://www.comune.lucca.it/app/uploads/2026/10/Tabella-accessi-centro-storico-con-prescrizioni.pdf",
+      "verified_at": "2026-11-19"
+    },
+    {
+      "id": "letrange-noel-des-sorciers-2026-premier-week-end",
+      "title": "L’Étrange Noël des Sorciers 2026 — premier week-end",
+      "category": "geek",
+      "tags": [
+        "geek",
+        "cosplay"
+      ],
+      "date_start": "2026-10-31",
+      "date_end": "2026-11-01",
+      "location_city": "Bron",
+      "location_country": "France",
+      "location_name": "Fort de Bron",
+      "location_address": "",
+      "description": "Rendez-vous magique de la famille Yggdrasil au Fort de Bron.",
+      "price": "Voir le site officiel",
+      "organizer": "Yggdrasil",
+      "website": "https://noeldessorciers.festyggdrasil.fr/infos",
+      "source_url": "https://noeldessorciers.festyggdrasil.fr/infos",
+      "verified_at": "2026-11-19"
+    },
+    {
+      "id": "tgs-pau-anime-game-show-2026",
+      "title": "TGS Pau Anime Game Show 2026",
+      "category": "geek",
+      "tags": [
+        "geek",
+        "cosplay"
+      ],
+      "date_start": "2026-10-31",
+      "date_end": "2026-11-01",
+      "location_city": "Pau",
+      "location_country": "France",
+      "location_name": "Parc des Expositions",
+      "location_address": "",
+      "description": "Convention de culture geek, comics et cosplay.",
+      "price": "Voir le site officiel",
+      "organizer": "TGS Événements",
+      "website": "https://tgs-pau.fr/",
+      "source_url": "https://www.parc-expo-pau.com/evenements/tgs-pau-anime-game-show-2/",
+      "verified_at": "2026-11-19"
+    },
+    {
+      "id": "stranger-fan-meet-9-londres-2026",
+      "title": "Stranger Fan Meet 9 — Londres 2026",
+      "category": "rencontre-acteur",
+      "tags": [
+        "rencontre-acteur"
+      ],
+      "date_start": "2026-11-07",
+      "date_end": "2026-11-08",
+      "location_city": "Londres",
+      "location_country": "Royaume-Uni",
+      "location_name": "",
+      "location_address": "",
+      "description": "Convention de rencontres avec des acteurs de films et séries.",
+      "price": "Voir le site officiel",
+      "organizer": "People Conventions",
+      "website": "https://www.people-convention.com/",
+      "source_url": "https://www.people-convention.com/",
+      "verified_at": "2026-11-19"
+    },
+    {
+      "id": "dream-it-welcome-to-the-multiverse-2026",
+      "title": "Dream It — Welcome To The Multiverse 2026",
+      "category": "rencontre-acteur",
+      "tags": [
+        "rencontre-acteur"
+      ],
+      "date_start": "2026-11-14",
+      "date_end": "2026-11-15",
+      "location_city": "Puteaux",
+      "location_country": "France",
+      "location_name": "CNIT Forest",
+      "location_address": "",
+      "description": "Rencontres avec des acteurs des univers Marvel, DC et Star Wars.",
+      "price": "Voir le site officiel",
+      "organizer": "Dream It Conventions",
+      "website": "https://www.dreamit-conventions.com/en",
+      "source_url": "https://www.dreamit-conventions.com/en",
+      "verified_at": "2026-11-19"
+    },
+    {
+      "id": "letrange-noel-des-sorciers-2026-second-week-end",
+      "title": "L’Étrange Noël des Sorciers 2026 — second week-end",
+      "category": "geek",
+      "tags": [
+        "geek",
+        "cosplay"
+      ],
+      "date_start": "2026-11-14",
+      "date_end": "2026-11-15",
+      "location_city": "Bron",
+      "location_country": "France",
+      "location_name": "Fort de Bron",
+      "location_address": "",
+      "description": "Rendez-vous magique de la famille Yggdrasil au Fort de Bron.",
+      "price": "Voir le site officiel",
+      "organizer": "Yggdrasil",
+      "website": "https://noeldessorciers.festyggdrasil.fr/infos",
+      "source_url": "https://noeldessorciers.festyggdrasil.fr/infos",
+      "verified_at": "2026-11-19"
+    },
     {
       "id": "geeklife-amiens-2026",
       "title": "Geek Life Amiens 2026",
@@ -20,8 +685,71 @@
       "description": "Festival de pop culture : jeux vidéo, manga et cosplay.",
       "price": "Voir le site officiel",
       "organizer": "JCK Production",
-      "website": "https://www.geeklife.fr/amiens/",
+      "website": "https://www.geeklife.fr/",
       "source_url": "https://www.geeklife.fr/amiens/",
+      "verified_at": "2026-11-19",
+      "location_country": "France"
+    },
+    {
+      "id": "heroes-dutch-comic-con-hiver-2026",
+      "title": "Heroes Dutch Comic Con — hiver 2026",
+      "category": "geek",
+      "tags": [
+        "geek",
+        "cosplay"
+      ],
+      "date_start": "2026-11-21",
+      "date_end": "2026-11-22",
+      "location_city": "Utrecht",
+      "location_country": "Pays-Bas",
+      "location_name": "Jaarbeurs",
+      "location_address": "",
+      "description": "Convention de culture geek, comics et cosplay.",
+      "price": "Voir le site officiel",
+      "organizer": "",
+      "website": "https://www.dutchcomiccon.com/info/",
+      "source_url": "https://www.dutchcomiccon.com/info/",
+      "verified_at": "2026-11-19"
+    },
+    {
+      "id": "the-one-con-2026",
+      "title": "The One Con 2026",
+      "category": "rencontre-acteur",
+      "tags": [
+        "rencontre-acteur"
+      ],
+      "date_start": "2026-11-21",
+      "date_end": "2026-11-22",
+      "location_city": "Saint-Denis",
+      "location_country": "France",
+      "location_name": "",
+      "location_address": "",
+      "description": "Convention de rencontres avec des acteurs de films et séries.",
+      "price": "Voir le site officiel",
+      "organizer": "People Conventions",
+      "website": "https://www.people-convention.com/",
+      "source_url": "https://www.people-convention.com/",
+      "verified_at": "2026-11-19"
+    },
+    {
+      "id": "vienna-comic-con-2026",
+      "title": "Vienna Comic Con 2026",
+      "category": "geek",
+      "tags": [
+        "geek",
+        "cosplay"
+      ],
+      "date_start": "2026-11-21",
+      "date_end": "2026-11-22",
+      "location_city": "Vienne",
+      "location_country": "Autriche",
+      "location_name": "Messe Wien",
+      "location_address": "",
+      "description": "Convention de culture geek, comics et cosplay.",
+      "price": "Voir le site officiel",
+      "organizer": "",
+      "website": "https://viecc.com/",
+      "source_url": "https://viecc.com/",
       "verified_at": "2026-11-19"
     },
     {
@@ -42,7 +770,8 @@
       "organizer": "",
       "website": "https://japan-touch.com/",
       "source_url": "https://japan-touch.com/",
-      "verified_at": "2026-11-19"
+      "verified_at": "2026-11-19",
+      "location_country": "France"
     },
     {
       "id": "tgs-toulouse-2026",
@@ -62,6 +791,48 @@
       "organizer": "TGS",
       "website": "https://tgs-toulouse.fr/",
       "source_url": "https://tgs-toulouse.fr/billetterie",
+      "verified_at": "2026-11-19",
+      "location_country": "France"
+    },
+    {
+      "id": "dream-it-first-responders-reunion-9-2026",
+      "title": "Dream It — First Responders Reunion 9 2026",
+      "category": "rencontre-acteur",
+      "tags": [
+        "rencontre-acteur"
+      ],
+      "date_start": "2026-12-05",
+      "date_end": "2026-12-06",
+      "location_city": "Tremblay-en-France",
+      "location_country": "France",
+      "location_name": "Hilton Paris Charles de Gaulle Airport",
+      "location_address": "",
+      "description": "Rencontres autour de Station 19 et Grey’s Anatomy.",
+      "price": "Voir le site officiel",
+      "organizer": "Dream It Conventions",
+      "website": "https://www.dreamit-conventions.com/en",
+      "source_url": "https://www.dreamit-conventions.com/en",
+      "verified_at": "2026-11-19"
+    },
+    {
+      "id": "german-film-comic-con-2026",
+      "title": "German Film Comic Con 2026",
+      "category": "geek",
+      "tags": [
+        "geek",
+        "cosplay"
+      ],
+      "date_start": "2026-12-05",
+      "date_end": "2026-12-06",
+      "location_city": "Dortmund",
+      "location_country": "Allemagne",
+      "location_name": "Messe Dortmund",
+      "location_address": "",
+      "description": "Convention de culture geek, comics et cosplay.",
+      "price": "Voir le site officiel",
+      "organizer": "",
+      "website": "https://germanfilmcomiccon.com/en/",
+      "source_url": "https://germanfilmcomiccon.com/en/",
       "verified_at": "2026-11-19"
     },
     {
@@ -81,6 +852,27 @@
       "organizer": "",
       "website": "https://www.ribeauville.fr/",
       "source_url": "https://www.ribeauville.fr/web/noel/2026-mnm/programme_mnm_2026_web.pdf",
+      "verified_at": "2026-11-19",
+      "location_country": "France"
+    },
+    {
+      "id": "salvatore-con-german-film-comic-con-2026",
+      "title": "Salvatore Con — German Film Comic Con 2026",
+      "category": "rencontre-acteur",
+      "tags": [
+        "rencontre-acteur"
+      ],
+      "date_start": "2026-12-05",
+      "date_end": "2026-12-06",
+      "location_city": "Dortmund",
+      "location_country": "Allemagne",
+      "location_name": "Messe Dortmund",
+      "location_address": "",
+      "description": "Convention de rencontres avec des acteurs de films et séries.",
+      "price": "Voir le site officiel",
+      "organizer": "WE LOVE CONVENTIONS",
+      "website": "https://salvatorecon.com/",
+      "source_url": "https://www.weloveconventions.com/search",
       "verified_at": "2026-11-19"
     },
     {
@@ -101,7 +893,8 @@
       "organizer": "",
       "website": "https://tgf-tarbes.com/",
       "source_url": "https://www.tarbes-expos.com/event/tarbes-global-festival/765",
-      "verified_at": "2026-11-19"
+      "verified_at": "2026-11-19",
+      "location_country": "France"
     },
     {
       "id": "ribeauville-noel-2026-2",
@@ -120,7 +913,8 @@
       "organizer": "",
       "website": "https://www.ribeauville.fr/",
       "source_url": "https://www.ribeauville.fr/web/noel/2026-mnm/programme_mnm_2026_web.pdf",
-      "verified_at": "2026-11-19"
+      "verified_at": "2026-11-19",
+      "location_country": "France"
     },
     {
       "id": "provins-noel-2026",
@@ -139,7 +933,8 @@
       "organizer": "Les Gardes-Foires de Champagne",
       "website": "https://noel-medieval-provins.com/",
       "source_url": "https://provins.net/noel-a-provins/",
-      "verified_at": "2026-11-19"
+      "verified_at": "2026-11-19",
+      "location_country": "France"
     },
     {
       "id": "geeklife-lemans-2027",
@@ -157,9 +952,10 @@
       "description": "Festival de pop culture : jeux vidéo, manga et cosplay.",
       "price": "Voir le site officiel",
       "organizer": "JCK Production",
-      "website": "https://www.geeklife.fr/lemans/",
+      "website": "https://www.geeklife.fr/",
       "source_url": "https://www.geeklife.fr/lemans/",
-      "verified_at": "2026-11-19"
+      "verified_at": "2026-11-19",
+      "location_country": "France"
     },
     {
       "id": "jmw-quimper-2027",
@@ -179,6 +975,27 @@
       "organizer": "Japan Manga Wave",
       "website": "https://japanmangawave.com/",
       "source_url": "https://japanmangawave.com/",
+      "verified_at": "2026-11-19",
+      "location_country": "France"
+    },
+    {
+      "id": "stranger-fan-meet-9-ultimate-edition-2027",
+      "title": "Stranger Fan Meet 9 — Ultimate Edition 2027",
+      "category": "rencontre-acteur",
+      "tags": [
+        "rencontre-acteur"
+      ],
+      "date_start": "2027-01-23",
+      "date_end": "2027-01-24",
+      "location_city": "Villepinte",
+      "location_country": "France",
+      "location_name": "",
+      "location_address": "",
+      "description": "Convention de rencontres avec des acteurs de films et séries.",
+      "price": "Voir le site officiel",
+      "organizer": "People Conventions",
+      "website": "https://www.people-convention.com/",
+      "source_url": "https://www.people-convention.com/",
       "verified_at": "2026-11-19"
     },
     {
@@ -197,9 +1014,10 @@
       "description": "Festival de pop culture : jeux vidéo, manga et cosplay.",
       "price": "Voir le site officiel",
       "organizer": "JCK Production",
-      "website": "https://www.geeklife.fr/limoges/",
+      "website": "https://www.geeklife.fr/",
       "source_url": "https://www.geeklife.fr/limoges/",
-      "verified_at": "2026-11-19"
+      "verified_at": "2026-11-19",
+      "location_country": "France"
     },
     {
       "id": "jmw-saint-etienne-2027",
@@ -219,7 +1037,8 @@
       "organizer": "Japan Manga Wave",
       "website": "https://japanmangawave.com/",
       "source_url": "https://japanmangawave.com/",
-      "verified_at": "2026-11-19"
+      "verified_at": "2026-11-19",
+      "location_country": "France"
     },
     {
       "id": "geeklife-rouen-2027",
@@ -237,9 +1056,10 @@
       "description": "Festival de pop culture : jeux vidéo, manga et cosplay.",
       "price": "Voir le site officiel",
       "organizer": "JCK Production",
-      "website": "https://www.geeklife.fr/rouen/",
+      "website": "https://www.geeklife.fr/",
       "source_url": "https://www.geeklife.fr/rouen/",
-      "verified_at": "2026-11-19"
+      "verified_at": "2026-11-19",
+      "location_country": "France"
     },
     {
       "id": "jmw-mulhouse-2027",
@@ -259,6 +1079,90 @@
       "organizer": "Japan Manga Wave",
       "website": "https://japanmangawave.com/",
       "source_url": "https://japanmangawave.com/",
+      "verified_at": "2026-11-19",
+      "location_country": "France"
+    },
+    {
+      "id": "normannia-2027",
+      "title": "Normannia 2027",
+      "category": "medieval",
+      "tags": [
+        "medieval",
+        "cosplay"
+      ],
+      "date_start": "2027-02-20",
+      "date_end": "2027-02-21",
+      "location_city": "Le Grand-Quevilly",
+      "location_country": "France",
+      "location_name": "Parc Expo de Rouen",
+      "location_address": "",
+      "description": "Neuvième édition du salon médiéval et fantastique de Rouen.",
+      "price": "Voir le site officiel",
+      "organizer": "Fédération Française Médiévale",
+      "website": "https://www.federation-francaise-medievale.fr/normannia",
+      "source_url": "https://www.federation-francaise-medievale.fr/normannia",
+      "verified_at": "2026-11-19"
+    },
+    {
+      "id": "german-rookie-con-2027",
+      "title": "German Rookie Con 2027",
+      "category": "rencontre-acteur",
+      "tags": [
+        "rencontre-acteur"
+      ],
+      "date_start": "2027-02-27",
+      "date_end": "2027-02-28",
+      "location_city": "Neuss",
+      "location_country": "Allemagne",
+      "location_name": "Crowne Plaza",
+      "location_address": "",
+      "description": "Convention de rencontres avec des acteurs de films et séries.",
+      "price": "Voir le site officiel",
+      "organizer": "WE LOVE CONVENTIONS",
+      "website": "https://germanrookiecon.com/",
+      "source_url": "https://www.weloveconventions.com/search",
+      "verified_at": "2026-11-19"
+    },
+    {
+      "id": "salvatore-con-2027",
+      "title": "Salvatore Con 2027",
+      "category": "rencontre-acteur",
+      "tags": [
+        "rencontre-acteur"
+      ],
+      "date_start": "2027-03-06",
+      "date_end": "2027-03-07",
+      "location_city": "Neuss",
+      "location_country": "Allemagne",
+      "location_name": "Crowne Plaza",
+      "location_address": "",
+      "description": "Convention de rencontres avec des acteurs de films et séries.",
+      "price": "Voir le site officiel",
+      "organizer": "WE LOVE CONVENTIONS",
+      "website": "https://salvatorecon.com/",
+      "source_url": "https://www.weloveconventions.com/search",
+      "verified_at": "2026-11-19"
+    },
+    {
+      "id": "yggdrasil-indoor-2027",
+      "title": "Yggdrasil Indoor 2027",
+      "category": "geek",
+      "tags": [
+        "geek",
+        "medieval",
+        "cosplay"
+      ],
+      "date_start": "2027-03-06",
+      "date_end": "2027-03-07",
+      "location_city": "Chassieu",
+      "location_country": "France",
+      "location_name": "Eurexpo Lyon",
+      "location_address": "",
+      "description": "Festival de l’imaginaire, fantasy et costumes.",
+      "price": "Voir le site officiel",
+      "organizer": "Yggdrasil",
+      "website": "https://www.indoor.festyggdrasil.fr/",
+      "source_url": "https://www.indoor.festyggdrasil.fr/",
       "verified_at": "2026-11-19"
     },
     {
@@ -279,7 +1183,8 @@
       "organizer": "Japan Manga Wave",
       "website": "https://japanmangawave.com/",
       "source_url": "https://japanmangawave.com/",
-      "verified_at": "2026-11-19"
+      "verified_at": "2026-11-19",
+      "location_country": "France"
     },
     {
       "id": "geeklife-brest-2027",
@@ -297,8 +1202,52 @@
       "description": "Festival de pop culture : jeux vidéo, manga et cosplay.",
       "price": "Voir le site officiel",
       "organizer": "JCK Production",
-      "website": "https://www.geeklife.fr/brest/",
+      "website": "https://www.geeklife.fr/",
       "source_url": "https://www.geeklife.fr/brest/",
+      "verified_at": "2026-11-19",
+      "location_country": "France"
+    },
+    {
+      "id": "polymanga-2027",
+      "title": "Polymanga 2027",
+      "category": "geek",
+      "tags": [
+        "geek",
+        "cosplay"
+      ],
+      "date_start": "2027-03-26",
+      "date_end": "2027-03-29",
+      "location_city": "Montreux",
+      "location_country": "Suisse",
+      "location_name": "2m2c et Royal Plaza",
+      "location_address": "",
+      "description": "Convention de culture geek, comics et cosplay.",
+      "price": "Voir le site officiel",
+      "organizer": "",
+      "website": "https://www.polymanga.com/",
+      "source_url": "https://www.royalplaza.ch/events/polymanga/",
+      "verified_at": "2026-11-19"
+    },
+    {
+      "id": "trolls-legendes-2027",
+      "title": "Trolls & Légendes 2027",
+      "category": "medieval",
+      "tags": [
+        "medieval",
+        "geek",
+        "cosplay"
+      ],
+      "date_start": "2027-03-26",
+      "date_end": "2027-03-28",
+      "location_city": "Mons",
+      "location_country": "Belgique",
+      "location_name": "Lotto Mons Expo",
+      "location_address": "",
+      "description": "Festival de fantasy, artisanat, littérature, jeux et concerts.",
+      "price": "Voir le site officiel",
+      "organizer": "",
+      "website": "https://trollsetlegendes.be/fr/",
+      "source_url": "https://trollsetlegendes.be/fr/",
       "verified_at": "2026-11-19"
     },
     {
@@ -318,7 +1267,8 @@
       "organizer": "Ville de Biot",
       "website": "https://www.biot.fr/appel-a-candidatures-pour-le-marche-medieval-de-biot-et-les-templiers-2027",
       "source_url": "https://www.biot.fr/appel-a-candidatures-pour-le-marche-medieval-de-biot-et-les-templiers-2027",
-      "verified_at": "2026-11-19"
+      "verified_at": "2026-11-19",
+      "location_country": "France"
     },
     {
       "id": "angers-geekfest-2027",
@@ -338,6 +1288,359 @@
       "organizer": "",
       "website": "https://angersgeekfest.com/",
       "source_url": "https://angersgeekfest.com/",
+      "verified_at": "2026-11-19",
+      "location_country": "France"
+    },
+    {
+      "id": "facts-belgian-comic-con-2027",
+      "title": "FACTS — Belgian Comic Con 2027",
+      "category": "geek",
+      "tags": [
+        "geek",
+        "cosplay"
+      ],
+      "date_start": "2027-04-03",
+      "date_end": "2027-04-04",
+      "location_city": "Gand",
+      "location_country": "Belgique",
+      "location_name": "Flanders Expo",
+      "location_address": "",
+      "description": "Convention de culture geek, comics et cosplay.",
+      "price": "Voir le site officiel",
+      "organizer": "",
+      "website": "https://www.facts.be/en/",
+      "source_url": "https://www.facts.be/en/",
+      "verified_at": "2026-11-19"
+    },
+    {
+      "id": "comic-con-france-2027",
+      "title": "Comic Con France 2027",
+      "category": "geek",
+      "tags": [
+        "geek",
+        "cosplay"
+      ],
+      "date_start": "2027-04-10",
+      "date_end": "2027-04-11",
+      "location_city": "Villepinte",
+      "location_country": "France",
+      "location_name": "Parc des Expositions Paris Nord Villepinte",
+      "location_address": "",
+      "description": "Convention de culture geek, comics et cosplay.",
+      "price": "Voir le site officiel",
+      "organizer": "",
+      "website": "https://comiccon.fr/en/homepage-en/",
+      "source_url": "https://comiccon.fr/en/homepage-en/",
+      "verified_at": "2026-11-19"
+    },
+    {
+      "id": "darklight-convention-8-2027",
+      "title": "DarkLight Convention 8 — 2027",
+      "category": "rencontre-acteur",
+      "tags": [
+        "rencontre-acteur"
+      ],
+      "date_start": "2027-04-10",
+      "date_end": "2027-04-11",
+      "location_city": "Saint-Denis",
+      "location_country": "France",
+      "location_name": "",
+      "location_address": "",
+      "description": "Convention de rencontres avec des acteurs de films et séries.",
+      "price": "Voir le site officiel",
+      "organizer": "People Conventions",
+      "website": "https://www.people-convention.com/",
+      "source_url": "https://www.people-convention.com/",
+      "verified_at": "2026-11-19"
+    },
+    {
+      "id": "comic-con-prague-2027",
+      "title": "Comic-Con Prague 2027",
+      "category": "geek",
+      "tags": [
+        "geek",
+        "cosplay"
+      ],
+      "date_start": "2027-04-16",
+      "date_end": "2027-04-18",
+      "location_city": "Prague",
+      "location_country": "Tchéquie",
+      "location_name": "O2 universum",
+      "location_address": "",
+      "description": "Convention de culture geek, comics et cosplay.",
+      "price": "Voir le site officiel",
+      "organizer": "",
+      "website": "https://www.comiccon.cz/en/tickets",
+      "source_url": "https://www.comiccon.cz/en/tickets",
+      "verified_at": "2026-11-19"
+    },
+    {
+      "id": "german-potter-con-2027",
+      "title": "German Potter Con 2027",
+      "category": "rencontre-acteur",
+      "tags": [
+        "rencontre-acteur"
+      ],
+      "date_start": "2027-04-17",
+      "date_end": "2027-04-18",
+      "location_city": "Solingen",
+      "location_country": "Allemagne",
+      "location_name": "Schloss Burg",
+      "location_address": "",
+      "description": "Convention de rencontres avec des acteurs de films et séries.",
+      "price": "Voir le site officiel",
+      "organizer": "WE LOVE CONVENTIONS",
+      "website": "https://germanpottercon.com/",
+      "source_url": "https://www.weloveconventions.com/search",
+      "verified_at": "2026-11-19"
+    },
+    {
+      "id": "austria-comic-con-2027",
+      "title": "Austria Comic Con 2027",
+      "category": "geek",
+      "tags": [
+        "geek",
+        "cosplay"
+      ],
+      "date_start": "2027-04-24",
+      "date_end": "2027-04-25",
+      "location_city": "Wels",
+      "location_country": "Autriche",
+      "location_name": "Messe Wels",
+      "location_address": "",
+      "description": "Convention de culture geek, comics et cosplay.",
+      "price": "Voir le site officiel",
+      "organizer": "",
+      "website": "https://austriacomiccon.com/en/registration/exhibitors-sellers/",
+      "source_url": "https://austriacomiccon.com/en/registration/exhibitors-sellers/",
+      "verified_at": "2026-11-19"
+    },
+    {
+      "id": "comic-con-holland-2027",
+      "title": "Comic Con Holland 2027",
+      "category": "geek",
+      "tags": [
+        "geek",
+        "cosplay"
+      ],
+      "date_start": "2027-04-24",
+      "date_end": "2027-04-25",
+      "location_city": "Bois-le-Duc",
+      "location_country": "Pays-Bas",
+      "location_name": "Brabanthallen ’s-Hertogenbosch",
+      "location_address": "",
+      "description": "Convention de culture geek, comics et cosplay.",
+      "price": "Voir le site officiel",
+      "organizer": "",
+      "website": "https://comicconholland.nl/en/homepage-en/",
+      "source_url": "https://comicconholland.nl/en/homepage-en/",
+      "verified_at": "2026-11-19"
+    },
+    {
+      "id": "comic-con-liverpool-2027",
+      "title": "Comic Con Liverpool 2027",
+      "category": "geek",
+      "tags": [
+        "geek",
+        "cosplay"
+      ],
+      "date_start": "2027-04-24",
+      "date_end": "2027-04-25",
+      "location_city": "Liverpool",
+      "location_country": "Royaume-Uni",
+      "location_name": "Liverpool Experience Campus",
+      "location_address": "",
+      "description": "Convention de culture geek, comics et cosplay.",
+      "price": "Voir le site officiel",
+      "organizer": "",
+      "website": "https://www.comicconventionliverpool.co.uk/",
+      "source_url": "https://www.comicconventionliverpool.co.uk/",
+      "verified_at": "2026-11-19"
+    },
+    {
+      "id": "mps-bad-sackingen-2027",
+      "title": "MPS Bad Säckingen 2027",
+      "category": "medieval",
+      "tags": [
+        "medieval"
+      ],
+      "date_start": "2027-04-24",
+      "date_end": "2027-04-25",
+      "location_city": "Bad Säckingen",
+      "location_country": "Allemagne",
+      "location_name": "",
+      "location_address": "",
+      "description": "Étape du Mittelalterlich Phantasie Spectaculum.",
+      "price": "Voir le site officiel",
+      "organizer": "MPS",
+      "website": "https://www.spectaculum.de/?lan=english",
+      "source_url": "https://www.spectaculum.de/?lan=english",
+      "verified_at": "2026-11-19"
+    },
+    {
+      "id": "comic-con-brussels-2027",
+      "title": "Comic Con Brussels 2027",
+      "category": "geek",
+      "tags": [
+        "geek",
+        "cosplay"
+      ],
+      "date_start": "2027-05-01",
+      "date_end": "2027-05-02",
+      "location_city": "Bruxelles",
+      "location_country": "Belgique",
+      "location_name": "Tour & Taxis",
+      "location_address": "",
+      "description": "Convention de culture geek, comics et cosplay.",
+      "price": "Voir le site officiel",
+      "organizer": "",
+      "website": "https://comicconbrussels.com/en/info-v2-en/",
+      "source_url": "https://comicconbrussels.com/en/info-v2-en/",
+      "verified_at": "2026-11-19"
+    },
+    {
+      "id": "mps-rastede-2027",
+      "title": "MPS Rastede 2027",
+      "category": "medieval",
+      "tags": [
+        "medieval"
+      ],
+      "date_start": "2027-05-06",
+      "date_end": "2027-05-09",
+      "location_city": "Rastede",
+      "location_country": "Allemagne",
+      "location_name": "",
+      "location_address": "",
+      "description": "Étape du Mittelalterlich Phantasie Spectaculum.",
+      "price": "Voir le site officiel",
+      "organizer": "MPS",
+      "website": "https://www.spectaculum.de/?lan=english",
+      "source_url": "https://www.spectaculum.de/?lan=english",
+      "verified_at": "2026-11-19"
+    },
+    {
+      "id": "comic-con-stockholm-ete-2027",
+      "title": "Comic Con Stockholm — été 2027",
+      "category": "geek",
+      "tags": [
+        "geek",
+        "cosplay"
+      ],
+      "date_start": "2027-05-08",
+      "date_end": "2027-05-09",
+      "location_city": "Stockholm",
+      "location_country": "Suède",
+      "location_name": "Kistamässan",
+      "location_address": "",
+      "description": "Convention de culture geek, comics et cosplay.",
+      "price": "Voir le site officiel",
+      "organizer": "",
+      "website": "https://www.comicconstockholm.se/en/faq/",
+      "source_url": "https://www.comicconstockholm.se/en/faq/",
+      "verified_at": "2026-11-19"
+    },
+    {
+      "id": "darklight-con-spain-2027",
+      "title": "Darklight Con Spain 2027",
+      "category": "rencontre-acteur",
+      "tags": [
+        "rencontre-acteur"
+      ],
+      "date_start": "2027-05-08",
+      "date_end": "2027-05-09",
+      "location_city": "Barcelone",
+      "location_country": "Espagne",
+      "location_name": "",
+      "location_address": "",
+      "description": "Convention de rencontres avec des acteurs de films et séries.",
+      "price": "Voir le site officiel",
+      "organizer": "People Conventions",
+      "website": "https://www.people-convention.com/",
+      "source_url": "https://www.people-convention.com/",
+      "verified_at": "2026-11-19"
+    },
+    {
+      "id": "fedcon-35-2027",
+      "title": "FedCon 35 — 2027",
+      "category": "rencontre-acteur",
+      "tags": [
+        "rencontre-acteur",
+        "geek",
+        "cosplay"
+      ],
+      "date_start": "2027-05-14",
+      "date_end": "2027-05-16",
+      "location_city": "Bonn",
+      "location_country": "Allemagne",
+      "location_name": "Maritim Hotel Bonn",
+      "location_address": "",
+      "description": "Rencontres avec des acteurs de science-fiction, conférences et cosplay.",
+      "price": "Voir le site officiel",
+      "organizer": "",
+      "website": "https://www.fedcon.de/de/",
+      "source_url": "https://www.fedcon.de/de/",
+      "verified_at": "2026-11-19"
+    },
+    {
+      "id": "comic-con-czech-republic-2027",
+      "title": "Comic Con Czech Republic 2027",
+      "category": "geek",
+      "tags": [
+        "geek",
+        "cosplay"
+      ],
+      "date_start": "2027-05-15",
+      "date_end": "2027-05-16",
+      "location_city": "Prague",
+      "location_country": "Tchéquie",
+      "location_name": "PVA EXPO Praha",
+      "location_address": "",
+      "description": "Convention de culture geek, comics et cosplay.",
+      "price": "Voir le site officiel",
+      "organizer": "",
+      "website": "https://www.comicconczech.cz/en/",
+      "source_url": "https://www.comicconczech.cz/en/",
+      "verified_at": "2026-11-19"
+    },
+    {
+      "id": "fantasy-basel-the-swiss-comic-con-2027",
+      "title": "Fantasy Basel — The Swiss Comic Con 2027",
+      "category": "geek",
+      "tags": [
+        "geek",
+        "cosplay"
+      ],
+      "date_start": "2027-05-15",
+      "date_end": "2027-05-17",
+      "location_city": "Bâle",
+      "location_country": "Suisse",
+      "location_name": "Messe Basel",
+      "location_address": "",
+      "description": "Convention de culture geek, comics et cosplay.",
+      "price": "Voir le site officiel",
+      "organizer": "",
+      "website": "https://www.comiccon.ch/en/datum-2027",
+      "source_url": "https://www.comiccon.ch/en/datum-2027",
+      "verified_at": "2026-11-19"
+    },
+    {
+      "id": "retro-mps-gut-emkendorf-2027",
+      "title": "Retro MPS Gut Emkendorf 2027",
+      "category": "medieval",
+      "tags": [
+        "medieval"
+      ],
+      "date_start": "2027-05-15",
+      "date_end": "2027-05-17",
+      "location_city": "Emkendorf",
+      "location_country": "Allemagne",
+      "location_name": "",
+      "location_address": "",
+      "description": "Étape du Mittelalterlich Phantasie Spectaculum.",
+      "price": "Voir le site officiel",
+      "organizer": "MPS",
+      "website": "https://www.spectaculum.de/?lan=english",
+      "source_url": "https://www.spectaculum.de/?lan=english",
       "verified_at": "2026-11-19"
     },
     {
@@ -356,8 +1659,30 @@
       "description": "Festival de pop culture : jeux vidéo, manga et cosplay.",
       "price": "Voir le site officiel",
       "organizer": "JCK Production",
-      "website": "https://www.geeklife.fr/lorient/",
+      "website": "https://www.geeklife.fr/",
       "source_url": "https://www.geeklife.fr/lorient/",
+      "verified_at": "2026-11-19",
+      "location_country": "France"
+    },
+    {
+      "id": "mcm-london-comic-con-printemps-2027",
+      "title": "MCM London Comic Con — printemps 2027",
+      "category": "geek",
+      "tags": [
+        "geek",
+        "cosplay"
+      ],
+      "date_start": "2027-05-28",
+      "date_end": "2027-05-30",
+      "location_city": "Londres",
+      "location_country": "Royaume-Uni",
+      "location_name": "ExCeL London",
+      "location_address": "",
+      "description": "Convention de culture geek, comics et cosplay.",
+      "price": "Voir le site officiel",
+      "organizer": "",
+      "website": "https://www.mcmcomiccon.com/global/en-us.html",
+      "source_url": "https://www.mcmcomiccon.com/global/en-us.html",
       "verified_at": "2026-11-19"
     },
     {
@@ -377,6 +1702,68 @@
       "organizer": "",
       "website": "https://provins-medievales.com/",
       "source_url": "https://provins-medievales.com/",
+      "verified_at": "2026-11-19",
+      "location_country": "France"
+    },
+    {
+      "id": "german-stranger-con-2027",
+      "title": "German Stranger Con 2027",
+      "category": "rencontre-acteur",
+      "tags": [
+        "rencontre-acteur"
+      ],
+      "date_start": "2027-06-19",
+      "date_end": "2027-06-20",
+      "location_city": "Oberhausen",
+      "location_country": "Allemagne",
+      "location_name": "Turbinenhalle",
+      "location_address": "",
+      "description": "Convention de rencontres avec des acteurs de films et séries.",
+      "price": "Voir le site officiel",
+      "organizer": "WE LOVE CONVENTIONS",
+      "website": "https://germanstrangercon.com/",
+      "source_url": "https://www.weloveconventions.com/search",
+      "verified_at": "2026-11-19"
+    },
+    {
+      "id": "heroes-dutch-comic-con-ete-2027",
+      "title": "Heroes Dutch Comic Con — été 2027",
+      "category": "geek",
+      "tags": [
+        "geek",
+        "cosplay"
+      ],
+      "date_start": "2027-06-19",
+      "date_end": "2027-06-20",
+      "location_city": "Utrecht",
+      "location_country": "Pays-Bas",
+      "location_name": "Jaarbeurs",
+      "location_address": "",
+      "description": "Convention de culture geek, comics et cosplay.",
+      "price": "Voir le site officiel",
+      "organizer": "",
+      "website": "https://www.dutchcomiccon.com/info/",
+      "source_url": "https://www.dutchcomiccon.com/info/",
+      "verified_at": "2026-11-19"
+    },
+    {
+      "id": "german-saga-con-2027",
+      "title": "German Saga Con 2027",
+      "category": "rencontre-acteur",
+      "tags": [
+        "rencontre-acteur"
+      ],
+      "date_start": "2027-07-03",
+      "date_end": "2027-07-04",
+      "location_city": "Essen",
+      "location_country": "Allemagne",
+      "location_name": "Messe Essen",
+      "location_address": "",
+      "description": "Convention de rencontres avec des acteurs de films et séries.",
+      "price": "Voir le site officiel",
+      "organizer": "WE LOVE CONVENTIONS",
+      "website": "https://germansagacon.com/",
+      "source_url": "https://www.weloveconventions.com/search",
       "verified_at": "2026-11-19"
     },
     {
@@ -397,6 +1784,211 @@
       "organizer": "",
       "website": "https://paris.japan-expo.com/fr",
       "source_url": "https://paris.japan-expo.com/fr/dates-horaires-acces",
+      "verified_at": "2026-11-19",
+      "location_country": "France"
+    },
+    {
+      "id": "comic-con-manchester-2027",
+      "title": "Comic Con Manchester 2027",
+      "category": "geek",
+      "tags": [
+        "geek",
+        "cosplay"
+      ],
+      "date_start": "2027-07-24",
+      "date_end": "2027-07-25",
+      "location_city": "Manchester",
+      "location_country": "Royaume-Uni",
+      "location_name": "",
+      "location_address": "",
+      "description": "Convention de culture geek, comics et cosplay.",
+      "price": "Voir le site officiel",
+      "organizer": "",
+      "website": "https://www.comicconventionmanchester.co.uk/monopoly-events-app",
+      "source_url": "https://www.comicconventionmanchester.co.uk/monopoly-events-app",
+      "verified_at": "2026-11-19"
+    },
+    {
+      "id": "mps-buckeburg-premier-week-end-2027",
+      "title": "MPS Bückeburg — premier week-end 2027",
+      "category": "medieval",
+      "tags": [
+        "medieval"
+      ],
+      "date_start": "2027-07-24",
+      "date_end": "2027-07-25",
+      "location_city": "Bückeburg",
+      "location_country": "Allemagne",
+      "location_name": "",
+      "location_address": "",
+      "description": "Étape du Mittelalterlich Phantasie Spectaculum.",
+      "price": "Voir le site officiel",
+      "organizer": "MPS",
+      "website": "https://www.spectaculum.de/?lan=english",
+      "source_url": "https://www.spectaculum.de/?lan=english",
+      "verified_at": "2026-11-19"
+    },
+    {
+      "id": "mcm-birmingham-comic-con-2027",
+      "title": "MCM Birmingham Comic Con 2027",
+      "category": "geek",
+      "tags": [
+        "geek",
+        "cosplay"
+      ],
+      "date_start": "2027-07-30",
+      "date_end": "2027-08-01",
+      "location_city": "Birmingham",
+      "location_country": "Royaume-Uni",
+      "location_name": "NEC Birmingham",
+      "location_address": "",
+      "description": "Convention de culture geek, comics et cosplay.",
+      "price": "Voir le site officiel",
+      "organizer": "",
+      "website": "https://www.mcmcomiccon.com/birmingham/en-us.html",
+      "source_url": "https://www.mcmcomiccon.com/birmingham/en-us.html",
+      "verified_at": "2026-11-19"
+    },
+    {
+      "id": "mps-buckeburg-second-week-end-2027",
+      "title": "MPS Bückeburg — second week-end 2027",
+      "category": "medieval",
+      "tags": [
+        "medieval"
+      ],
+      "date_start": "2027-07-31",
+      "date_end": "2027-08-01",
+      "location_city": "Bückeburg",
+      "location_country": "Allemagne",
+      "location_name": "",
+      "location_address": "",
+      "description": "Étape du Mittelalterlich Phantasie Spectaculum.",
+      "price": "Voir le site officiel",
+      "organizer": "MPS",
+      "website": "https://www.spectaculum.de/?lan=english",
+      "source_url": "https://www.spectaculum.de/?lan=english",
+      "verified_at": "2026-11-19"
+    },
+    {
+      "id": "comic-con-wales-2027",
+      "title": "Comic Con Wales 2027",
+      "category": "geek",
+      "tags": [
+        "geek",
+        "cosplay"
+      ],
+      "date_start": "2027-08-07",
+      "date_end": "2027-08-08",
+      "location_city": "Newport",
+      "location_country": "Royaume-Uni",
+      "location_name": "ICC Wales",
+      "location_address": "",
+      "description": "Convention de culture geek, comics et cosplay.",
+      "price": "Voir le site officiel",
+      "organizer": "",
+      "website": "https://www.comicconventionwales.co.uk/",
+      "source_url": "https://www.comicconventionwales.co.uk/",
+      "verified_at": "2026-11-19"
+    },
+    {
+      "id": "retro-mps-weil-am-rhein-2027",
+      "title": "Retro MPS Weil am Rhein 2027",
+      "category": "medieval",
+      "tags": [
+        "medieval"
+      ],
+      "date_start": "2027-08-14",
+      "date_end": "2027-08-15",
+      "location_city": "Weil am Rhein",
+      "location_country": "Allemagne",
+      "location_name": "",
+      "location_address": "",
+      "description": "Étape du Mittelalterlich Phantasie Spectaculum.",
+      "price": "Voir le site officiel",
+      "organizer": "MPS",
+      "website": "https://www.spectaculum.de/?lan=english",
+      "source_url": "https://www.spectaculum.de/?lan=english",
+      "verified_at": "2026-11-19"
+    },
+    {
+      "id": "mps-speyer-2027",
+      "title": "MPS Speyer 2027",
+      "category": "medieval",
+      "tags": [
+        "medieval"
+      ],
+      "date_start": "2027-08-21",
+      "date_end": "2027-08-22",
+      "location_city": "Spire",
+      "location_country": "Allemagne",
+      "location_name": "",
+      "location_address": "",
+      "description": "Étape du Mittelalterlich Phantasie Spectaculum.",
+      "price": "Voir le site officiel",
+      "organizer": "MPS",
+      "website": "https://www.spectaculum.de/?lan=english",
+      "source_url": "https://www.spectaculum.de/?lan=english",
+      "verified_at": "2026-11-19"
+    },
+    {
+      "id": "comic-con-baltics-2027",
+      "title": "Comic Con Baltics 2027",
+      "category": "geek",
+      "tags": [
+        "geek",
+        "cosplay"
+      ],
+      "date_start": "2027-09-03",
+      "date_end": "2027-09-05",
+      "location_city": "Vilnius",
+      "location_country": "Lituanie",
+      "location_name": "LITEXPO",
+      "location_address": "",
+      "description": "Convention de culture geek, comics et cosplay.",
+      "price": "Voir le site officiel",
+      "organizer": "",
+      "website": "https://www.litexpo.lt/en/events/comic-con-baltics-2027/",
+      "source_url": "https://www.litexpo.lt/en/events/comic-con-baltics-2027/",
+      "verified_at": "2026-11-19"
+    },
+    {
+      "id": "german-castle-con-2027",
+      "title": "German Castle Con 2027",
+      "category": "rencontre-acteur",
+      "tags": [
+        "rencontre-acteur"
+      ],
+      "date_start": "2027-09-04",
+      "date_end": "2027-09-05",
+      "location_city": "Solingen",
+      "location_country": "Allemagne",
+      "location_name": "Schloss Burg",
+      "location_address": "",
+      "description": "Convention de rencontres avec des acteurs de films et séries.",
+      "price": "Voir le site officiel",
+      "organizer": "WE LOVE CONVENTIONS",
+      "website": "https://germancastlecon.com/",
+      "source_url": "https://www.weloveconventions.com/search",
+      "verified_at": "2026-11-19"
+    },
+    {
+      "id": "mps-luhmuhlen-2027",
+      "title": "MPS Luhmühlen 2027",
+      "category": "medieval",
+      "tags": [
+        "medieval"
+      ],
+      "date_start": "2027-09-04",
+      "date_end": "2027-09-05",
+      "location_city": "Luhmühlen",
+      "location_country": "Allemagne",
+      "location_name": "",
+      "location_address": "",
+      "description": "Étape du Mittelalterlich Phantasie Spectaculum.",
+      "price": "Voir le site officiel",
+      "organizer": "MPS",
+      "website": "https://www.spectaculum.de/?lan=english",
+      "source_url": "https://www.spectaculum.de/?lan=english",
       "verified_at": "2026-11-19"
     },
     {
@@ -415,9 +2007,10 @@
       "description": "Festival de pop culture : jeux vidéo, manga et cosplay.",
       "price": "Voir le site officiel",
       "organizer": "JCK Production",
-      "website": "https://www.geeklife.fr/poitiers/",
+      "website": "https://www.geeklife.fr/",
       "source_url": "https://www.geeklife.fr/poitiers/",
-      "verified_at": "2026-11-19"
+      "verified_at": "2026-11-19",
+      "location_country": "France"
     },
     {
       "id": "geeklife-laval-2027",
@@ -435,8 +2028,29 @@
       "description": "Festival de pop culture : jeux vidéo, manga et cosplay.",
       "price": "Voir le site officiel",
       "organizer": "JCK Production",
-      "website": "https://www.geeklife.fr/laval/",
+      "website": "https://www.geeklife.fr/",
       "source_url": "https://www.geeklife.fr/laval/",
+      "verified_at": "2026-11-19",
+      "location_country": "France"
+    },
+    {
+      "id": "retro-mps-borken-2027",
+      "title": "Retro MPS Borken 2027",
+      "category": "medieval",
+      "tags": [
+        "medieval"
+      ],
+      "date_start": "2027-09-25",
+      "date_end": "2027-09-26",
+      "location_city": "Borken",
+      "location_country": "Allemagne",
+      "location_name": "",
+      "location_address": "",
+      "description": "Étape du Mittelalterlich Phantasie Spectaculum.",
+      "price": "Voir le site officiel",
+      "organizer": "MPS",
+      "website": "https://www.spectaculum.de/?lan=english",
+      "source_url": "https://www.spectaculum.de/?lan=english",
       "verified_at": "2026-11-19"
     },
     {
@@ -455,9 +2069,93 @@
       "description": "Festival de pop culture : jeux vidéo, manga et cosplay.",
       "price": "Voir le site officiel",
       "organizer": "JCK Production",
-      "website": "https://www.geeklife.fr/caen/",
+      "website": "https://www.geeklife.fr/",
       "source_url": "https://www.geeklife.fr/caen/",
+      "verified_at": "2026-11-19",
+      "location_country": "France"
+    },
+    {
+      "id": "forever-mystic-falls-fan-meet-8-2027",
+      "title": "Forever Mystic Falls Fan Meet 8 — 2027",
+      "category": "rencontre-acteur",
+      "tags": [
+        "rencontre-acteur"
+      ],
+      "date_start": "2027-10-23",
+      "date_end": "2027-10-24",
+      "location_city": "Courbevoie",
+      "location_country": "France",
+      "location_name": "",
+      "location_address": "",
+      "description": "Convention de rencontres avec des acteurs de films et séries.",
+      "price": "Voir le site officiel",
+      "organizer": "People Conventions",
+      "website": "https://www.people-convention.com/",
+      "source_url": "https://www.people-convention.com/",
       "verified_at": "2026-11-19"
+    },
+    {
+      "id": "comic-con-stockholm-hiver-2027",
+      "title": "Comic Con Stockholm — hiver 2027",
+      "category": "geek",
+      "tags": [
+        "geek",
+        "cosplay"
+      ],
+      "date_start": "2027-11-05",
+      "date_end": "2027-11-07",
+      "location_city": "Stockholm",
+      "location_country": "Suède",
+      "location_name": "Stockholmsmässan",
+      "location_address": "",
+      "description": "Convention de culture geek, comics et cosplay.",
+      "price": "Voir le site officiel",
+      "organizer": "",
+      "website": "https://www.comicconstockholm.se/en/faq/",
+      "source_url": "https://www.comicconstockholm.se/en/faq/",
+      "verified_at": "2026-11-19"
+    }
+  ],
+  "pending_editions": [
+    {
+      "name": "Yggdrasil Fort Fort Lointain",
+      "year": 2027,
+      "status": "date_non_confirmee",
+      "source_url": "https://festyggdrasil.fr/",
+      "checked_at": "2026-11-19",
+      "note": "Aucune date 2027 retrouvée dans le portail consulté."
+    },
+    {
+      "name": "L’Étrange Noël des Sorciers",
+      "year": 2027,
+      "status": "date_non_confirmee",
+      "source_url": "https://noeldessorciers.festyggdrasil.fr/infos",
+      "checked_at": "2026-11-19",
+      "note": "Les deux week-ends publiés concernent 2026."
+    },
+    {
+      "name": "TGS Toulouse / Montpellier / Pau / Springbreak / Paris Manga",
+      "year": 2027,
+      "status": "date_non_confirmee",
+      "source_url": "https://www.rostercon.com/fr/organisme-convention/tgs-evenements",
+      "checked_at": "2026-11-19",
+      "note": "Les éditions 2026 sont documentées ; les dates 2027 restent à vérifier auprès de l’organisateur."
+    },
+    {
+      "name": "Dream It — éditions 2027",
+      "year": 2027,
+      "status": "date_non_confirmee",
+      "source_url": "https://www.dreamit-conventions.com/en",
+      "checked_at": "2026-11-19",
+      "note": "Aucune date 2027 sur le calendrier officiel consulté. Les annonces sociales doivent encore être recoupées."
+    },
+    {
+      "name": "MCM London — automne 2027",
+      "year": 2027,
+      "status": "date_non_confirmee",
+      "source_url": "https://www.mcmcomiccon.com/london/en-us/help/faqs.html",
+      "checked_at": "2026-11-19",
+      "note": "Sources contradictoires : FAQ 24–26 octobre, annonce sociale 22–24 octobre. À résoudre avant intégration."
     }
   ]
 }

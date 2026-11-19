@@ -302,3 +302,9 @@ select.sort-select { appearance: none; padding-right: 32px; background-image: ur
 
 .ticket-dates-mobile { display:none; }
 @media(max-width:640px) { .ticket-dates-mobile { display:block; font-size:.875rem; color:var(--ink-muted); } }
+
+/* Rencontres : même billet et palette encre sur papier. */
+.filter-btn[data-cat="rencontre-acteur"].active { background: #56345C; border-color: #56345C; }
+.event-card[data-cat="rencontre-acteur"] .ticket-stub { background: #402545; }
+.cat-rencontre-acteur { color: #56345C; }
+.stub-cat-label { overflow-wrap: anywhere; }
