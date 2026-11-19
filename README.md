@@ -51,7 +51,6 @@ Chaque événement contient :
 - Un événement reste visible jusqu’à sa date de fin incluse. Le bouton « événements passés » permet ensuite de le retrouver sans le supprimer du JSON.
 - Pour plusieurs week-ends séparés, créer une entrée par période : ne pas inclure les jours de fermeture.
 - Vérifier les dates sur une annonce officielle ; ne pas extrapoler une édition annuelle. Laisser un champ facultatif vide lorsque l’information n’est pas publiée.
-- Les liens de suggestion ouvrent une issue GitHub ; ils nécessitent un compte GitHub. Ils n’ajoutent rien automatiquement au catalogue.
 
 ## Catalogue initial
 

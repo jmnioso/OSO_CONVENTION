@@ -30,16 +30,6 @@ nav {
   width: 30px; height: 30px; border: 2px solid var(--red);
   display: flex; align-items: center; justify-content: center; font-size: 14px; color: var(--red);
 }
-.nav-links { display: flex; gap: 0.5rem; align-items: center; }
-.nav-links a {
-  color: var(--ink-dim); text-decoration: none; padding: 5px 12px;
-  font-family: 'Special Elite', cursive; font-size: 0.78rem;
-  letter-spacing: 0.08em; text-transform: uppercase; border: 1px solid transparent; transition: all 0.2s;
-}
-.nav-links a:hover { color: var(--paper); border-color: var(--ink-dim); }
-.btn-propose { color: var(--paper) !important; border: 1px solid var(--red) !important; background: var(--red); }
-.btn-propose:hover { background: var(--red-dark) !important; border-color: var(--red-dark) !important; }
-
 /* HERO */
 .hero {
   text-align: center; padding: 3rem 2rem 2rem;
@@ -272,7 +262,6 @@ footer a:hover { color: var(--paper); }
 
 @media (max-width: 640px) {
   nav { padding: 0 1rem; }
-  .nav-links a:not(.btn-propose) { display: none; }
   .hero { padding: 2rem 1rem 1.5rem; }
   .stats-bar { gap: 0; }
   .stat { padding: 1rem 1.5rem; }
@@ -283,13 +272,12 @@ footer a:hover { color: var(--paper); }
 }
 
 /* Lisibilité et navigation au clavier, dans la charte papier d'origine. */
-.nav-links a, .hero-eyebrow, .hero-sub, .stat-label, .controls-header,
+.hero-eyebrow, .hero-sub, .stat-label, .controls-header,
 .filter-label, .date-from-label, .results-info, .ticket-desc, .ticket-meta,
 .modal-info-item label, .modal-desc-label, footer { font-size: .875rem; }
 .ticket-serial, .stub-month, .stub-year, .stub-cat-label, .date-lbl, .date-myr { font-size: .75rem; }
 .ticket-stub, .ticket-right { width: 110px; }
 :root { --ink-dim: #745747; }
-.nav-links a { color: var(--perf); }
 .hero h1 { letter-spacing: .08em; }
 .catalog-note { max-width: 1160px; margin: 1.25rem auto 0; padding: 0 2rem; color: var(--ink-muted); font-size: .875rem; line-height: 1.6; text-align: center; }
 .event-card:focus-visible, button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible { outline: 3px solid var(--red); outline-offset: 3px; }
@@ -301,7 +289,6 @@ select.sort-select { appearance: none; padding-right: 32px; background-image: ur
 @media(max-width:640px) {
  nav { height: auto; min-height: 56px; flex-wrap: wrap; gap: .5rem; padding-top: .75rem; padding-bottom: .75rem; }
  .nav-brand { font-size: 1rem; letter-spacing: .04em; }
- .nav-links a { padding: 5px 8px; }
  .stat { padding: 1rem .6rem; flex: 1; }
  .stat-label { letter-spacing: .02em; }
  .search-box { min-width: 0; flex-basis: 100%; }
