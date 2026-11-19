@@ -1,0 +1,463 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-11-19",
+  "scope": "France",
+  "note": "Sélection non exhaustive de dates annoncées. Vérifier les informations auprès des organisateurs avant de se déplacer.",
+  "events": [
+    {
+      "id": "geeklife-amiens-2026",
+      "title": "Geek Life Amiens 2026",
+      "category": "geek",
+      "tags": [
+        "geek",
+        "cosplay"
+      ],
+      "date_start": "2026-11-21",
+      "date_end": "2026-11-22",
+      "location_city": "Amiens",
+      "location_name": "Mégacité",
+      "location_address": "",
+      "description": "Festival de pop culture : jeux vidéo, manga et cosplay.",
+      "price": "Voir le site officiel",
+      "organizer": "JCK Production",
+      "website": "https://www.geeklife.fr/amiens/",
+      "source_url": "https://www.geeklife.fr/amiens/",
+      "verified_at": "2026-11-19"
+    },
+    {
+      "id": "japan-touch-2026",
+      "title": "Japan Touch Lyon 2026",
+      "category": "cosplay",
+      "tags": [
+        "cosplay",
+        "geek"
+      ],
+      "date_start": "2026-11-28",
+      "date_end": "2026-11-29",
+      "location_city": "Chassieu",
+      "location_name": "Eurexpo Lyon",
+      "location_address": "",
+      "description": "Cultures asiatiques, créateurs, manga et espaces cosplay.",
+      "price": "Voir le site officiel",
+      "organizer": "",
+      "website": "https://japan-touch.com/",
+      "source_url": "https://japan-touch.com/",
+      "verified_at": "2026-11-19"
+    },
+    {
+      "id": "tgs-toulouse-2026",
+      "title": "TGS Toulouse Occitanie Game Show 2026",
+      "category": "geek",
+      "tags": [
+        "geek",
+        "cosplay"
+      ],
+      "date_start": "2026-11-28",
+      "date_end": "2026-11-29",
+      "location_city": "Aussonne",
+      "location_name": "MEETT",
+      "location_address": "",
+      "description": "Convention pop culture, jeux vidéo, manga et cosplay.",
+      "price": "20 € / jour · 30 € / 2 jours",
+      "organizer": "TGS",
+      "website": "https://tgs-toulouse.fr/",
+      "source_url": "https://tgs-toulouse.fr/billetterie",
+      "verified_at": "2026-11-19"
+    },
+    {
+      "id": "ribeauville-noel-2026-1",
+      "title": "Marché de Noël médiéval de Ribeauvillé — week-end 1",
+      "category": "medieval",
+      "tags": [
+        "medieval"
+      ],
+      "date_start": "2026-12-05",
+      "date_end": "2026-12-06",
+      "location_city": "Ribeauvillé",
+      "location_name": "Centre historique",
+      "location_address": "",
+      "description": "Marché de Noël médiéval : deux week-ends distincts en décembre.",
+      "price": "Voir le site officiel",
+      "organizer": "",
+      "website": "https://www.ribeauville.fr/",
+      "source_url": "https://www.ribeauville.fr/web/noel/2026-mnm/programme_mnm_2026_web.pdf",
+      "verified_at": "2026-11-19"
+    },
+    {
+      "id": "tgf-tarbes-2026",
+      "title": "TGF — Tarbes Global Festival 2026",
+      "category": "geek",
+      "tags": [
+        "geek",
+        "cosplay"
+      ],
+      "date_start": "2026-12-05",
+      "date_end": "2026-12-06",
+      "location_city": "Tarbes",
+      "location_name": "Parc des Expositions",
+      "location_address": "",
+      "description": "Dixième édition du festival, anciennement Tarbes Geek Festival.",
+      "price": "Voir le site officiel",
+      "organizer": "",
+      "website": "https://tgf-tarbes.com/",
+      "source_url": "https://www.tarbes-expos.com/event/tarbes-global-festival/765",
+      "verified_at": "2026-11-19"
+    },
+    {
+      "id": "ribeauville-noel-2026-2",
+      "title": "Marché de Noël médiéval de Ribeauvillé — week-end 2",
+      "category": "medieval",
+      "tags": [
+        "medieval"
+      ],
+      "date_start": "2026-12-12",
+      "date_end": "2026-12-13",
+      "location_city": "Ribeauvillé",
+      "location_name": "Centre historique",
+      "location_address": "",
+      "description": "Marché de Noël médiéval : deux week-ends distincts en décembre.",
+      "price": "Voir le site officiel",
+      "organizer": "",
+      "website": "https://www.ribeauville.fr/",
+      "source_url": "https://www.ribeauville.fr/web/noel/2026-mnm/programme_mnm_2026_web.pdf",
+      "verified_at": "2026-11-19"
+    },
+    {
+      "id": "provins-noel-2026",
+      "title": "Marché médiéval de Noël de Provins 2026",
+      "category": "medieval",
+      "tags": [
+        "medieval"
+      ],
+      "date_start": "2026-12-12",
+      "date_end": "2026-12-13",
+      "location_city": "Provins",
+      "location_name": "Ville haute",
+      "location_address": "",
+      "description": "Artisans, musiques, campements et animations médiévales.",
+      "price": "Gratuit",
+      "organizer": "Les Gardes-Foires de Champagne",
+      "website": "https://noel-medieval-provins.com/",
+      "source_url": "https://provins.net/noel-a-provins/",
+      "verified_at": "2026-11-19"
+    },
+    {
+      "id": "geeklife-lemans-2027",
+      "title": "Geek Life Le Mans 2027",
+      "category": "geek",
+      "tags": [
+        "geek",
+        "cosplay"
+      ],
+      "date_start": "2027-01-16",
+      "date_end": "2027-01-17",
+      "location_city": "Le Mans",
+      "location_name": "Centre des Expositions",
+      "location_address": "",
+      "description": "Festival de pop culture : jeux vidéo, manga et cosplay.",
+      "price": "Voir le site officiel",
+      "organizer": "JCK Production",
+      "website": "https://www.geeklife.fr/lemans/",
+      "source_url": "https://www.geeklife.fr/lemans/",
+      "verified_at": "2026-11-19"
+    },
+    {
+      "id": "jmw-quimper-2027",
+      "title": "Japan Manga Wave Quimper 2027",
+      "category": "cosplay",
+      "tags": [
+        "cosplay",
+        "geek"
+      ],
+      "date_start": "2027-01-16",
+      "date_end": "2027-01-17",
+      "location_city": "Quimper",
+      "location_name": "Quimper Parc Expo",
+      "location_address": "",
+      "description": "Week-end manga, cosplay, gaming et culture japonaise.",
+      "price": "Voir le site officiel",
+      "organizer": "Japan Manga Wave",
+      "website": "https://japanmangawave.com/",
+      "source_url": "https://japanmangawave.com/",
+      "verified_at": "2026-11-19"
+    },
+    {
+      "id": "geeklife-limoges-2027",
+      "title": "Geek Life Limoges 2027",
+      "category": "geek",
+      "tags": [
+        "geek",
+        "cosplay"
+      ],
+      "date_start": "2027-02-06",
+      "date_end": "2027-02-07",
+      "location_city": "Limoges",
+      "location_name": "Parc des Expositions",
+      "location_address": "",
+      "description": "Festival de pop culture : jeux vidéo, manga et cosplay.",
+      "price": "Voir le site officiel",
+      "organizer": "JCK Production",
+      "website": "https://www.geeklife.fr/limoges/",
+      "source_url": "https://www.geeklife.fr/limoges/",
+      "verified_at": "2026-11-19"
+    },
+    {
+      "id": "jmw-saint-etienne-2027",
+      "title": "Japan Manga Wave Saint-Étienne 2027",
+      "category": "cosplay",
+      "tags": [
+        "cosplay",
+        "geek"
+      ],
+      "date_start": "2027-02-06",
+      "date_end": "2027-02-07",
+      "location_city": "Saint-Étienne",
+      "location_name": "Parc Expo Saint-Étienne",
+      "location_address": "",
+      "description": "Week-end manga, cosplay, gaming et culture japonaise.",
+      "price": "Voir le site officiel",
+      "organizer": "Japan Manga Wave",
+      "website": "https://japanmangawave.com/",
+      "source_url": "https://japanmangawave.com/",
+      "verified_at": "2026-11-19"
+    },
+    {
+      "id": "geeklife-rouen-2027",
+      "title": "Geek Life Rouen 2027",
+      "category": "geek",
+      "tags": [
+        "geek",
+        "cosplay"
+      ],
+      "date_start": "2027-02-13",
+      "date_end": "2027-02-14",
+      "location_city": "Rouen",
+      "location_name": "Parc des Expositions",
+      "location_address": "",
+      "description": "Festival de pop culture : jeux vidéo, manga et cosplay.",
+      "price": "Voir le site officiel",
+      "organizer": "JCK Production",
+      "website": "https://www.geeklife.fr/rouen/",
+      "source_url": "https://www.geeklife.fr/rouen/",
+      "verified_at": "2026-11-19"
+    },
+    {
+      "id": "jmw-mulhouse-2027",
+      "title": "Japan Manga Wave Mulhouse 2027",
+      "category": "cosplay",
+      "tags": [
+        "cosplay",
+        "geek"
+      ],
+      "date_start": "2027-02-20",
+      "date_end": "2027-02-21",
+      "location_city": "Mulhouse",
+      "location_name": "Mulhouse Parc Expo",
+      "location_address": "",
+      "description": "Week-end manga, cosplay, gaming et culture japonaise.",
+      "price": "Voir le site officiel",
+      "organizer": "Japan Manga Wave",
+      "website": "https://japanmangawave.com/",
+      "source_url": "https://japanmangawave.com/",
+      "verified_at": "2026-11-19"
+    },
+    {
+      "id": "jmw-la-roche-sur-foron-2027",
+      "title": "Japan Manga Wave La Roche-sur-Foron 2027",
+      "category": "cosplay",
+      "tags": [
+        "cosplay",
+        "geek"
+      ],
+      "date_start": "2027-03-13",
+      "date_end": "2027-03-14",
+      "location_city": "La Roche-sur-Foron",
+      "location_name": "Rochexpo",
+      "location_address": "",
+      "description": "Week-end manga, cosplay, gaming et culture japonaise.",
+      "price": "Voir le site officiel",
+      "organizer": "Japan Manga Wave",
+      "website": "https://japanmangawave.com/",
+      "source_url": "https://japanmangawave.com/",
+      "verified_at": "2026-11-19"
+    },
+    {
+      "id": "geeklife-brest-2027",
+      "title": "Geek Life Brest 2027",
+      "category": "geek",
+      "tags": [
+        "geek",
+        "cosplay"
+      ],
+      "date_start": "2027-03-20",
+      "date_end": "2027-03-21",
+      "location_city": "Brest",
+      "location_name": "Parc des Expositions de Penfeld",
+      "location_address": "",
+      "description": "Festival de pop culture : jeux vidéo, manga et cosplay.",
+      "price": "Voir le site officiel",
+      "organizer": "JCK Production",
+      "website": "https://www.geeklife.fr/brest/",
+      "source_url": "https://www.geeklife.fr/brest/",
+      "verified_at": "2026-11-19"
+    },
+    {
+      "id": "biot-templiers-2027",
+      "title": "Biot et les Templiers 2027",
+      "category": "medieval",
+      "tags": [
+        "medieval"
+      ],
+      "date_start": "2027-04-02",
+      "date_end": "2027-04-04",
+      "location_city": "Biot",
+      "location_name": "Village de Biot",
+      "location_address": "",
+      "description": "Fête médiévale consacrée au XIIIe siècle, avec spectacles et marché.",
+      "price": "Voir le site officiel",
+      "organizer": "Ville de Biot",
+      "website": "https://www.biot.fr/appel-a-candidatures-pour-le-marche-medieval-de-biot-et-les-templiers-2027",
+      "source_url": "https://www.biot.fr/appel-a-candidatures-pour-le-marche-medieval-de-biot-et-les-templiers-2027",
+      "verified_at": "2026-11-19"
+    },
+    {
+      "id": "angers-geekfest-2027",
+      "title": "Angers Geekfest 2027",
+      "category": "geek",
+      "tags": [
+        "geek",
+        "cosplay"
+      ],
+      "date_start": "2027-04-03",
+      "date_end": "2027-04-04",
+      "location_city": "Verrières-en-Anjou",
+      "location_name": "Parc des Expositions d’Angers",
+      "location_address": "",
+      "description": "Jeux vidéo et cosplay autour du thème « Odyssées dans l’espace ».",
+      "price": "Voir le site officiel",
+      "organizer": "",
+      "website": "https://angersgeekfest.com/",
+      "source_url": "https://angersgeekfest.com/",
+      "verified_at": "2026-11-19"
+    },
+    {
+      "id": "geeklife-lorient-2027",
+      "title": "Geek Life Lorient 2027",
+      "category": "geek",
+      "tags": [
+        "geek",
+        "cosplay"
+      ],
+      "date_start": "2027-05-22",
+      "date_end": "2027-05-23",
+      "location_city": "Lanester",
+      "location_name": "Parc des Expositions de Lorient Bretagne Sud",
+      "location_address": "286 rue Rouget de Lisle, 56600 Lanester",
+      "description": "Festival de pop culture : jeux vidéo, manga et cosplay.",
+      "price": "Voir le site officiel",
+      "organizer": "JCK Production",
+      "website": "https://www.geeklife.fr/lorient/",
+      "source_url": "https://www.geeklife.fr/lorient/",
+      "verified_at": "2026-11-19"
+    },
+    {
+      "id": "provins-medievales-2027",
+      "title": "Les Médiévales de Provins 2027",
+      "category": "medieval",
+      "tags": [
+        "medieval"
+      ],
+      "date_start": "2027-05-29",
+      "date_end": "2027-05-30",
+      "location_city": "Provins",
+      "location_name": "Cité médiévale",
+      "location_address": "",
+      "description": "Fête médiévale avec artisans, spectacles de rue et défilé costumé.",
+      "price": "Voir le site officiel",
+      "organizer": "",
+      "website": "https://provins-medievales.com/",
+      "source_url": "https://provins-medievales.com/",
+      "verified_at": "2026-11-19"
+    },
+    {
+      "id": "japan-expo-2027",
+      "title": "Japan Expo Paris 2027",
+      "category": "cosplay",
+      "tags": [
+        "cosplay",
+        "geek"
+      ],
+      "date_start": "2027-07-08",
+      "date_end": "2027-07-11",
+      "location_city": "Villepinte",
+      "location_name": "Parc des Expositions Paris-Nord Villepinte",
+      "location_address": "",
+      "description": "Festival dédié au Japon, aux mangas et au cosplay.",
+      "price": "Voir le site officiel",
+      "organizer": "",
+      "website": "https://paris.japan-expo.com/fr",
+      "source_url": "https://paris.japan-expo.com/fr/dates-horaires-acces",
+      "verified_at": "2026-11-19"
+    },
+    {
+      "id": "geeklife-poitiers-2027",
+      "title": "Geek Life Poitiers 2027",
+      "category": "geek",
+      "tags": [
+        "geek",
+        "cosplay"
+      ],
+      "date_start": "2027-09-11",
+      "date_end": "2027-09-12",
+      "location_city": "Poitiers",
+      "location_name": "Parc des Expositions de Grand Poitiers",
+      "location_address": "",
+      "description": "Festival de pop culture : jeux vidéo, manga et cosplay.",
+      "price": "Voir le site officiel",
+      "organizer": "JCK Production",
+      "website": "https://www.geeklife.fr/poitiers/",
+      "source_url": "https://www.geeklife.fr/poitiers/",
+      "verified_at": "2026-11-19"
+    },
+    {
+      "id": "geeklife-laval-2027",
+      "title": "Geek Life Laval 2027",
+      "category": "geek",
+      "tags": [
+        "geek",
+        "cosplay"
+      ],
+      "date_start": "2027-09-25",
+      "date_end": "2027-09-26",
+      "location_city": "Laval",
+      "location_name": "Espace Mayenne",
+      "location_address": "",
+      "description": "Festival de pop culture : jeux vidéo, manga et cosplay.",
+      "price": "Voir le site officiel",
+      "organizer": "JCK Production",
+      "website": "https://www.geeklife.fr/laval/",
+      "source_url": "https://www.geeklife.fr/laval/",
+      "verified_at": "2026-11-19"
+    },
+    {
+      "id": "geeklife-caen-2027",
+      "title": "Geek Life Caen 2027",
+      "category": "geek",
+      "tags": [
+        "geek",
+        "cosplay"
+      ],
+      "date_start": "2027-10-09",
+      "date_end": "2027-10-10",
+      "location_city": "Caen",
+      "location_name": "Parc des Expositions",
+      "location_address": "",
+      "description": "Festival de pop culture : jeux vidéo, manga et cosplay.",
+      "price": "Voir le site officiel",
+      "organizer": "JCK Production",
+      "website": "https://www.geeklife.fr/caen/",
+      "source_url": "https://www.geeklife.fr/caen/",
+      "verified_at": "2026-11-19"
+    }
+  ]
+}

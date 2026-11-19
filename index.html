@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>OSO Convention — Événements Cosplay, Médiéval & Geek</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Special+Elite&family=Courier+Prime:wght@400;700&display=swap" rel="stylesheet">
+<meta name="description" content="L’agenda OSO Convention : prochains événements geek, médiévaux et cosplay en France, avec dates et liens officiels.">
+<script src="app.js" defer></script>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<nav>
+  <a href="index.html" class="nav-brand">
+    <div class="nav-logo-box">✦</div>
+    OSO Convention
+  </a>
+  <div class="nav-links">
+    <a href="https://github.com/jmnioso/OSO_CONVENTION/issues/new" class="btn-propose" target="_blank" rel="noopener noreferrer">Suggérer un événement</a>
+  </div>
+</nav>
+
+<div class="hero">
+  <div class="hero-eyebrow">Agenda des passionnés · France · 2026–2027</div>
+  <h1>OSO <span style="color:var(--red)">Convention</span></h1>
+  <div class="hero-sub">Cosplay &nbsp;·&nbsp; Médiéval &nbsp;·&nbsp; Geek</div>
+</div>
+
+<div class="stats-bar">
+  <div class="stat"><span class="stat-num" id="stat-total">—</span><div class="stat-label">Événements à venir</div></div>
+  <div class="stat"><span class="stat-num" id="stat-month">—</span><div class="stat-label">Ce mois-ci</div></div>
+  <div class="stat"><span class="stat-num" id="stat-cities">—</span><div class="stat-label">Villes</div></div>
+</div>
+
+<p class="catalog-note" id="catalog-note">Chargement de l’agenda…</p>
+<main>
+<div class="controls">
+  <div class="controls-header">⊞ Prochains événements</div>
+  <div class="search-row">
+    <div class="search-box">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+      <input type="search" aria-label="Rechercher un événement ou une ville" id="search-input" placeholder="Rechercher par titre, ville…">
+    </div>
+    <div class="date-from-box">
+      <span class="date-from-label">À partir du</span>
+      <input type="date" id="date-from-filter" aria-label="Événements à partir du">
+      <button class="date-from-clear" id="date-from-clear" aria-label="Effacer la date" style="display:none">✕</button>
+    </div>
+    <select class="sort-select" id="sort-select" aria-label="Trier les événements">
+      <option value="date_asc">Date ↑ (plus proche)</option>
+      <option value="date_desc">Date ↓ (plus lointain)</option>
+      <option value="title_asc">Titre A→Z</option>
+    </select>
+  </div>
+  <div class="filter-row">
+    <span class="filter-label">Filtre :</span>
+    <button class="filter-btn active" data-cat="all" aria-pressed="true">Tous</button>
+    <button class="filter-btn" data-cat="cosplay" aria-pressed="false">🎭 Cosplay</button>
+    <button class="filter-btn" data-cat="medieval" aria-pressed="false">⚔️ Médiéval</button>
+    <button class="filter-btn" data-cat="geek" aria-pressed="false">🎮 Geek</button>
+  </div>
+  <div class="past-toggle-row">
+    <button class="filter-btn btn-past" id="toggle-past" aria-pressed="false" onclick="togglePast()">🕓 Voir aussi les événements passés</button>
+  </div>
+</div>
+
+<div class="results-info" id="results-info" aria-live="polite"></div>
+
+<div class="events-grid" id="events-grid" aria-busy="true">
+  <div class="loading"><div class="spinner"></div></div>
+</div>
+
+</main>
+<noscript><p class="catalog-note">Activez JavaScript pour consulter et filtrer l’agenda. <a href="data/events.json">Consulter les données JSON</a>.</p></noscript>
+<div class="modal-overlay" id="modal-overlay">
+  <div class="modal" id="modal-content" role="dialog" aria-modal="true" aria-labelledby="modal-title" tabindex="-1">
+    <div class="modal-header">
+      <div class="modal-header-left">
+        <div class="modal-header-eyebrow">✦ Fiche événement</div>
+        <h2 id="modal-title"></h2>
+      </div>
+      <button class="modal-close" id="modal-close" aria-label="Fermer la fiche">✕</button>
+    </div>
+    <div class="modal-body">
+      <div class="modal-cat-row" id="modal-cat"></div>
+      <div class="modal-info-grid" id="modal-info"></div>
+      <hr class="modal-divider">
+      <div class="modal-desc-label">Description</div>
+      <p class="modal-desc" id="modal-desc"></p>
+      <p class="modal-source" id="modal-source"></p>
+      <div class="modal-footer">
+        <span class="modal-serial" id="modal-serial"></span>
+        <div id="modal-link"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer>
+  <p>OSO Convention — Agenda communautaire &bull; <a href="https://github.com/jmnioso/OSO_CONVENTION/issues/new" target="_blank" rel="noopener noreferrer">Suggérer une correction</a> &bull; <a href="data/events.json">Télécharger l’agenda JSON</a></p>
+</footer>
+
+
+</body>
+</html>
